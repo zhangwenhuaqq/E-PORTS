@@ -1,0 +1,10 @@
+pytest
+pytest-html
+pytest-xdist
+pytest-ordering
+pytest-rerunfailures
+PyYAML
+selenium
+Appium-Python-Client
+by
+parameterized

@@ -1,0 +1,17 @@
+INFO     root:base.py:10 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="f54ed9d1001101d15c7b92e38ab30052")>
+INFO     root:base.py:20 正在点击元素：('css selector', 'div.ant-spin-nested-loading div.ant-spin-container div.index_box_2UojT div.index_container_1MNkV div.index_container_right_3Bvs9 div.index_loginWayTabs_1VLgK div.index_loginWayTab_4izMu:nth-child(2) > button.ant-btn.ant-btn-block')
+INFO     root:base.py:15 正在查找元素：('css selector', 'div.ant-spin-nested-loading div.ant-spin-container div.index_box_2UojT div.index_container_1MNkV div.index_container_right_3Bvs9 div.index_loginWayTabs_1VLgK div.index_loginWayTab_4izMu:nth-child(2) > button.ant-btn.ant-btn-block')
+INFO     root:base.py:20 正在点击元素：('css selector', '#rc-tabs-0-tab-2')
+INFO     root:base.py:15 正在查找元素：('css selector', '#rc-tabs-0-tab-2')
+INFO     root:base.py:25 成功获取元素：('css selector', '#basic_username')
+INFO     root:base.py:15 正在查找元素：('css selector', '#basic_username')
+INFO     root:base.py:28 正在清空元素：('css selector', '#basic_username')
+INFO     root:base.py:30 正在输入元素：('css selector', '#basic_username')
+INFO     root:base.py:25 成功获取元素：('css selector', '#password')
+INFO     root:base.py:15 正在查找元素：('css selector', '#password')
+INFO     root:base.py:28 正在清空元素：('css selector', '#password')
+INFO     root:base.py:30 正在输入元素：('css selector', '#password')
+INFO     root:base.py:20 正在点击元素：('css selector', 'div.ant-spin-nested-loading div.ant-spin-container div.index_box_2UojT div.index_container_1MNkV div.index_container_right_3Bvs9 div.index_control_1nH9j form.ant-form.ant-form-horizontal div.index_submitBtn_3uYl6:nth-child(5) > button.ant-btn.ant-btn-lg.ant-btn-block')
+INFO     root:base.py:15 正在查找元素：('css selector', 'div.ant-spin-nested-loading div.ant-spin-container div.index_box_2UojT div.index_container_1MNkV div.index_container_right_3Bvs9 div.index_control_1nH9j form.ant-form.ant-form-horizontal div.index_submitBtn_3uYl6:nth-child(5) > button.ant-btn.ant-btn-lg.ant-btn-block')
+INFO     root:base.py:15 正在查找元素：('css selector', 'div.header___2Uhn5:nth-child(1) div.headerInfo___3H6YW div.userWrapper___1KWhJ div.ant-dropdown-trigger.avatarContianer___1_ljY div.avatarName___27ptB > span.name___IW1ZM')
+INFO     root:test_mail_pwd_login.py:21 登录成功，用户昵称存在
