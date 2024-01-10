@@ -1,8 +1,5 @@
 from base.base import Base
-from tools.get_path import get_file_path
-from tools.get_yaml import get_read
 import page
-page_data = get_read(get_file_path('page_data','page_data_mail_pwd_login.yaml'))
 
 class PageLogin(Base):
     #切换至密码登录
