@@ -40,6 +40,5 @@ pytest核心配置文件
 10.run.py  
 执行文件  
 11.requirements.txt  
-存入报名，可以批量安装 pip install -r requirements.txt  
-二、操作手册  
-1.
+存入报名，可以批量安装 pip install -r requirements.txt
+
