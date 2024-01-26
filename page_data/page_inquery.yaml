@@ -1,0 +1,40 @@
+#发布询价page_inquery
+- info: 订单管理按钮
+  type: css_selector
+  element: 'div.header___2Uhn5:nth-child(1) div.topMenu___11GKd ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-dark:nth-child(1) li.ant-menu-overflow-item.ant-menu-item.ant-menu-item-only-child:nth-child(3) > span.ant-menu-title-content'
+- info: 发布询价按钮
+  type: css_selector
+  element: 'div.qiankun-micro-app div.qiankun-micro-app-container div.router-wrapper div.main-wrapper section.ant-layout section.ant-layout main.container.ant-layout-content div.ant-spin-nested-loading div.ant-spin-container div.src-layouts-PageLayout-index-module__pageLayout--2dT3G.src-pages-orderNew-index-module__orderList--2P0ZN div.src-layouts-PageLayout-index-module__pageHeader--fwpFW div.src-layouts-PageLayout-index-module__heading--2IRYx:nth-child(1) div.src-layouts-PageLayout-index-module__extra--3qdgQ > button.ant-btn.ant-btn-primary'
+- info: 点击船舶
+  type: xpath
+  element: '/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/section[1]/section[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/span[1]/div[1]/div[1]/div[1]/div[1]'
+- info: 选择船舶
+  type: xpath
+  element: '/html/body/div[4]/div/div/div[1]/ul/li[1]'
+- info: 输入港口
+  type: xpath
+  element: '/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/section[1]/section[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/div[1]/div[1]/div[1]/div[1]'
+- info: 输入服务类型
+  type: xpath
+  element: '/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/section[1]/section[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/div[1]/div[1]/div[1]/div[1]'
+- info: 输入上一港口
+  type: xpath
+  element: '/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/section[1]/section[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/span[1]/div[1]/div[1]/div[1]/div[1]'
+- info: 点击时间选择框
+  type: xpath
+  element: '/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/section[1]/section[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]/div[1]/span[1]/span[1]/div[1]/input[1]'
+- info: 时间点击此刻
+  type: xpath
+  element: "//a[contains(text(),'此刻')]"
+- info: 选择代理-航管
+  type: xpath
+  element: "//body/div[@id='root-master']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/section[1]/section[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/div[1]/button[2]"
+- info: 击发布询价
+  type: xpath
+  element: "//body/div[@id='root-master']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/section[1]/section[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[4]/div[2]/button[2]"
+- info: 点击弹窗中的确定按钮
+  type: xpath
+  element: '//body/div[8]/div[1]/div[2]/div[1]/div[2]/div[3]/div[1]/button[2]'
+- info: 点击进入询价单详情
+  type: css_selector
+  element: 'body.ant-scrolling-effect:nth-child(2) div.ant-modal-root div.ant-modal-wrap div.ant-modal div.ant-modal-content:nth-child(2) div.ant-modal-body div.src-containers-AddInquirySubOrder-modal-module__inquirySuccessModalContent--3o3iC div.src-containers-AddInquirySubOrder-modal-module__centerContent--ToFMI > button.ant-btn.ant-btn-primary:nth-child(5)'

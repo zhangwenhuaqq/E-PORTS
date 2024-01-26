@@ -1,2 +1,5 @@
 - name: 发布询价
   success: true
+  port: "zhoushan"
+  service: 'Bunkering Agent'
+  front_prot: "dalian"

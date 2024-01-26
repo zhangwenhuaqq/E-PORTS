@@ -1,0 +1,14 @@
+[33m84d7f4ff3f479e2e7c63dffcf0f2fb9db01a9632[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m 1.调整page中元素的获取方式，改用从yaml中获取，不同业务场景页面元素存在在不同的yaml文件中 2.优化获取元素定位封装方法，增加元素定位类型的判断
+[33mce6a42bcf5585009bb25a7a9321650dafb2fd14b[m[33m ([m[1;31mgithub/master[m[33m)[m 调整README.md排版
+[33m695f879274653c04c70597328fe0e04c8103d260[m 调整README.md排版
+[33mc5d72e81abca8fc43922861d37c26377ee65adb2[m 新增README.md
+[33mc4e6d4a460bdff1f8427876fbec473021ecb4fc1[m 新增README.md
+[33me1594fc4703930d7096c3b3c0cc57691e4e037cf[m 新增README.md
+[33md659ddf91a1ee843a71d945cafdd22a7f3d4df3a[m 新增README.md
+[33mb85ea67f96433c467da7e2c0af7d8c24777e5881[m 新增README.md
+[33m7bb178320400eb6a5d91d2be75a4fca37be99512[m 新增README.md
+[33mf8d09601d3777c9e31f10b274a49734edda5c43e[m 新增README.md
+[33me05bfe00b1ddf8646e613db15ec904a6ebc4560e[m 新增README.md
+[33m959e6f805f3b446e9ad066765486bdd4a7629899[m 业务流程
+[33m5905d2d1a34583e467d0e843da4f284825dea5af[m 更新使用手册内容
+[33mc3150cd9cd3ad6198bddeb21fc1215fa71ceded5[m 1.去除登录业务中的登录场景 2.新增委托方添加询价业务 3.新增pytest.mark.run(order=1)装饰器

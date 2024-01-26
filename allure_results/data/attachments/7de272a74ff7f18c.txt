@@ -1,0 +1,3 @@
+INFO     root:base.py:11 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="e10b472828e3fbd93e00cfa066454c0c")>
+INFO     root:base.py:21 正在点击元素：('css selector', 'div.header___2Uhn5:nth-child(1) div.topMenu___11GKd ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-dark:nth-child(1) li.ant-menu-overflow-item.ant-menu-item.ant-menu-item-only-child:nth-child(3) > span.ant-menu-title-content')
+INFO     root:base.py:16 正在查找元素：('css selector', 'div.header___2Uhn5:nth-child(1) div.topMenu___11GKd ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-dark:nth-child(1) li.ant-menu-overflow-item.ant-menu-item.ant-menu-item-only-child:nth-child(3) > span.ant-menu-title-content')

@@ -10,5 +10,5 @@ def get_file_path(config,config_base_path):
 
 if __name__=='__main__':
 
-    res = get_file_path('page_data','page_data_mail_pwd-login.yaml')
+    res = get_file_path('page_data','page_data_mail_pwd_login.yaml')
     print(res)

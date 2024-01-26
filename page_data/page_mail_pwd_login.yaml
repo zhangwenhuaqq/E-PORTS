@@ -1,0 +1,29 @@
+#登录page_mail_pwd_login
+- info: 密码登录
+  type: css_selector
+  element: 'div.ant-spin-nested-loading div.ant-spin-container div.index_box_2UojT div.index_container_1MNkV div.index_container_right_3Bvs9 div.index_loginWayTabs_1VLgK div.index_loginWayTab_4izMu:nth-child(2) > button.ant-btn.ant-btn-block'
+- info: 邮箱登录
+  type: css_selector
+  element: '#rc-tabs-0-tab-2'
+- info: 邮箱账号
+  type:  css_selector
+  element: '#basic_username'
+- info: 密码
+  type: css_selector
+  element: '#password'
+- info: 点击登录按钮
+  type: css_selector
+  element: 'div.ant-spin-nested-loading div.ant-spin-container div.index_box_2UojT div.index_container_1MNkV div.index_container_right_3Bvs9 div.index_control_1nH9j form.ant-form.ant-form-horizontal div.index_submitBtn_3uYl6:nth-child(5) > button.ant-btn.ant-btn-lg.ant-btn-block'
+- info: 用户昵称
+  type: css_selector
+  element: 'div.header___2Uhn5:nth-child(1) div.headerInfo___3H6YW div.userWrapper___1KWhJ div.ant-dropdown-trigger.avatarContianer___1_ljY div.avatarName___27ptB > span.name___IW1ZM'
+- info: 退出登录
+  type: css_selector
+  element: 'div.header___2Uhn5:nth-child(1) div.headerInfo___3H6YW div.userWrapper___1KWhJ div.ant-dropdown.ant-dropdown-placement-bottomRight ul.ant-dropdown-menu.ant-dropdown-menu-root.ant-dropdown-menu-vertical.ant-dropdown-menu-light:nth-child(1) li.ant-dropdown-menu-item.ant-dropdown-menu-item-only-child:nth-child(3) span.ant-dropdown-menu-title-content > div:nth-child(1)'
+- info: 确定退出登录
+  type: css_selector
+  element: 'div.ant-modal-root div.ant-modal-wrap div.ant-modal div.ant-modal-content:nth-child(2) div.ant-modal-footer > button.ant-btn.ant-btn-primary:nth-child(2)'
+- info: 滑块验证框
+  type: xpath
+  element: '/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[3]/form[1]/div[4]/div[1]/div[1]/div[1]/span[1]'
+
