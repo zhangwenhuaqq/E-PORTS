@@ -12,41 +12,22 @@ def test_inquery(driver,indata):
     # 调用询价方法
     inquery = PageInquery(driver)
     inquery.add_inquery(indata["port"],indata["service"],indata["front_prot"])
-#     if indata["success"]:
-#         try:
-#             # 判断用户昵称是否存在
-#             assert inquery.page_is_login_success()
-#             #driver (driver.login.page_is_login_success())
-#             log.info("登录成功，用户昵称存在")
-#             # # 点击用户昵称
-#             # login.page_click_login_nickname()
-#             # # 点击退出登录
-#             # login.page_click_login_logout()
-#             # # 点击确认退出登录
-#             # login.page_click_login_logout_bt()
-#             # try:
-#             #     assert login.page_is_logout_success()
-#             #     #driver.assertTrue(driver.login.page_is_logout_success())
-#             #    log.info("登出成功，检查'登录页登录密码'存在")
-#             # except Exception as e:
-#             #     log.error(e)
-#             #     # 截图
-#             #     login.page_get_image()
-#         except Exception as e:
-#             log.error(e)
-#             # 截图
-#             login.page_get_image()
-#     else:
-#         # #断言
-#         # el = self.login.base_get_text(page.login_page_assert_chat)
-#         try:
-#             ##断言
-#             # self.assertEqual(el,except_result)
-#             pass
-#         except Exception as e:
-#             log.error(e)
-#             # 截图
-#             login.base_get_image()
-#
-# if __name__=='__name__':
-#     pytest.main()
+    if indata["success"]:
+        try:
+            # 判断"询价中"昵称是否存在
+            assert inquery.page_is_inquery_success()
+            log.info("成功发布询价")
+        except Exception as e:
+            log.error(e)
+            # 截图
+            log.page_get_image()
+    else:
+        try:
+            pass
+        except Exception as e:
+            log.error(e)
+            # 截图
+            log.base_get_image()
+
+if __name__=='__name__':
+    pytest.main()

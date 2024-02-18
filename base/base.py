@@ -53,12 +53,13 @@ class Base():
             action.send_keys(data).pause(1).perform()
         time.sleep(0.5)
 
-    # 先操作下拉后写入
+    # 先点击操作后下拉写入
     def select_send(self,X,loc,data):
         self.base_click(X,loc)
         self.send_key(data)
         time.sleep(1)
         self.send_key('ENTER')
+
     # 上传文件
     def upload(self, loc, fdtype, data, info):
         self.base_click(loc)

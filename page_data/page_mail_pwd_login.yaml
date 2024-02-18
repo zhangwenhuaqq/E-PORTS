@@ -14,7 +14,7 @@
 - info: 点击登录按钮
   type: css_selector
   element: 'div.ant-spin-nested-loading div.ant-spin-container div.index_box_2UojT div.index_container_1MNkV div.index_container_right_3Bvs9 div.index_control_1nH9j form.ant-form.ant-form-horizontal div.index_submitBtn_3uYl6:nth-child(5) > button.ant-btn.ant-btn-lg.ant-btn-block'
-- info: 用户昵称
+- check: 用户昵称
   type: css_selector
   element: 'div.header___2Uhn5:nth-child(1) div.headerInfo___3H6YW div.userWrapper___1KWhJ div.ant-dropdown-trigger.avatarContianer___1_ljY div.avatarName___27ptB > span.name___IW1ZM'
 - info: 退出登录

@@ -1,7 +1,7 @@
 import page
 from base.base import Base
 from tools.get_path import get_file_path
-from tools.get_yaml import get_read
+from tools.get_yaml import *
 
 data = get_read(get_file_path('page_data','page_inquery.yaml'))
 
@@ -19,6 +19,7 @@ class PageInquery(Base):
     #选择港口
     def page_click_port(self,port):
         self.select_send(data[4]["type"],data[4]["element"],port)
+
     #选择服务类型
     def page_click_service(self,service):
         self.select_send(data[5]["type"],data[5]["element"],service)
@@ -41,17 +42,22 @@ class PageInquery(Base):
     #点击进入询价单详情
     def page_click_inquery_detail(self):
         self.base_click(data[12]["type"],data[12]["element"])
+    #判断是否发布成功(检查首页"询价中"存在)
+    def page_is_inquery_success(self):
+        return self.base_element_is_exist(data[14]["type"],data[14]["element"])
+    #获取订单号文本
+    def page_NO(self):
+        No = self.base_get_text(data[13]["type"],data[13]["element"])
+        #组合成字典存入一个变量
+        extract_data = {data[13]["info"]: No}
+        return extract_data
+    #记录订单号到yaml中
+    def page_record_NO(self):
+        return get_write(get_file_path('page_data','test_data.yaml'),self.page_NO())
     #截图
     def page_get_image(self):
         self.base_get_image()
 
-#     #判断是否成功登录(检查首页"用户昵称"存在)
-#     def page_is_login_success(self):
-#         return self.base_element_is_exist(page.login_nickname)
-#     #判断是否成功退登(检查登录页"密码登录"存在)
-#     def page_is_logout_success(self):
-#         return self.base_element_is_exist(page.login_nickname)
-#
     #组合业务方法
     def add_inquery(self,port,service,front_prot):
         self.page_order_manager_list()
@@ -65,6 +71,9 @@ class PageInquery(Base):
         self.page_click_inquery()
         self.page_click_confirm()
         self.page_click_inquery_detail()
+        self.page_NO()
+        self.page_record_NO()
+
 
 
 

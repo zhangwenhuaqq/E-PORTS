@@ -38,3 +38,12 @@
 - info: 点击进入询价单详情
   type: css_selector
   element: 'body.ant-scrolling-effect:nth-child(2) div.ant-modal-root div.ant-modal-wrap div.ant-modal div.ant-modal-content:nth-child(2) div.ant-modal-body div.src-containers-AddInquirySubOrder-modal-module__inquirySuccessModalContent--3o3iC div.src-containers-AddInquirySubOrder-modal-module__centerContent--ToFMI > button.ant-btn.ant-btn-primary:nth-child(5)'
+- info: 记录订单号
+  type: xpath
+  element: '/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/section[1]/section[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[3]/div[2]'
+- check: 询价中
+  type: css_selector
+  element: 'div.qiankun-micro-app div.qiankun-micro-app-container div.router-wrapper div.main-wrapper section.ant-layout section.ant-layout main.container.ant-layout-content div.ant-spin-nested-loading div.ant-spin-container div.src-layouts-PageLayout-index-module__pageLayout--2dT3G.src-pages-orderNew-index-module__detailBox--3NMYa div.src-layouts-PageLayout-index-module__pageContent--8vVSr div.src-pages-orderNew-index-module__boxInner--1IKiG div.src-pages-orderNew-index-module__operation--2uljc:nth-child(2) div.src-pages-orderNew-index-module__voyageInfo--3nLuY:nth-child(1) div.src-components-order-VoyageInfo-index-module__voyageInfoWrapper--5RxzE div.src-components-order-VoyageInfo-index-module__top--3P5eK div.src-components-order-VoyageInfo-index-module__shipRight--2a_l- div.src-components-order-VoyageInfo-index-module__orderTags--36gIN > div.src-components-order-VoyageInfo-index-module__orderStatusLabel--2jiXy'
+- info: 选择搜索出来的港口
+  type: css_selector
+  element: 'div.ant-select-dropdown.ant-select-dropdown--single.ant-select-dropdown-placement-bottomLeft.slide-up-leave.slide-up-leave-active div:nth-child(1) ul.ant-select-dropdown-menu.ant-select-dropdown-menu-root.ant-select-dropdown-menu-vertical li.ant-select-dropdown-menu-item.ant-select-dropdown-menu-item-selected:nth-child(1) > div:nth-child(1)'
