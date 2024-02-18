@@ -481,4 +481,3 @@
 2024-01-26 17:49:06,937 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
 2024-01-26 17:49:06,997 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
 2024-01-26 17:49:07,062 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
-2024-01-26 17:49:09,248 INFO [root][test_inquery.py (test_inquery:19)] - 成功发布询价
