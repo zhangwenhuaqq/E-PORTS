@@ -10,7 +10,7 @@ base.py
 (1)基类，元素基本操作方法封装  
 2.page  
 (1)_init_.py    
-保存各业务模块的page元素  
+存储服务的域名地址  
 (2)page_*  
 按照业务模块的page独立封装  
 3.scripts  
