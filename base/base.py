@@ -31,17 +31,17 @@ class Base():
         action_chains.drag_and_drop_by_offset(sp, 400, 0).perform()
     #点击元素方法封装
     def base_click(self,X,loc):
-        log.info("正在点击元素：{}".format(X,loc))
+        log.info("正在点击元素：{}".format(loc))
         self.base_find_element(X,loc).click()
     #输入元素方法封装
     def base_input(self,X,loc,value):
         #获取元素
-        log.info("成功获取元素：{}".format(X,loc))
+        log.info("成功获取元素：{}".format(loc))
         el=self.base_find_element(X,loc)
         #清空
-        log.info("正在清空元素：{}".format(X,loc))
+        log.info("正在清空元素：{}".format(loc))
         el.clear()
-        log.info("正在输入元素：{}".format(X,loc))
+        log.info("正在输入元素：{}".format(loc))
         #输入元素
         el.send_keys(value)
     # 键盘操作
@@ -77,7 +77,7 @@ class Base():
     def base_get_select(self,X,loc):
         els = self.base_find_element(X,loc)
         select = Select(els)
-        log.info("成功获取元素列表：{}".format(X,loc))
+        log.info("成功获取元素列表：{}".format(loc))
         return select.select_by_index(1)
     #截图方法封装
     def base_get_image(self):
@@ -88,7 +88,7 @@ class Base():
             self.base_find_element(X,loc,5)
             return True #代表元素存在
         except Exception as e:
-            log.info("元素不存在：{}".format(X,loc))
+            log.info("元素不存在：{}".format(loc))
             return False #代表元素不存在
  # 鼠标滚动
     def scroll_top(self):
