@@ -2,7 +2,7 @@ import page
 from base.base import Base
 from tools.get_path import get_file_path
 from tools.get_yaml import *
-
+import time
 data = get_read(get_file_path('page_data','page_inquery.yaml'))
 
 class PageInquery(Base):
@@ -61,17 +61,29 @@ class PageInquery(Base):
     #组合业务方法
     def add_inquery(self,port,service,front_prot):
         self.page_order_manager_list()
+        time.sleep(3)
         self.page_add_inquery()
+        time.sleep(2)
         self.page_add_ship()
+        time.sleep(1)
         self.page_click_port(port)
+        time.sleep(1)
         self.page_click_service(service)
+        time.sleep(1)
         self.page_click_front_port(front_prot)
+        time.sleep(1)
         self.page_click_time()
+        time.sleep(1)
         self.page_click_agent()
+        time.sleep(1)
         self.page_click_inquery()
+        time.sleep(1)
         self.page_click_confirm()
+        time.sleep(1)
         self.page_click_inquery_detail()
+        time.sleep(1)
         self.page_NO()
+        time.sleep(1)
         self.page_record_NO()
 
 
