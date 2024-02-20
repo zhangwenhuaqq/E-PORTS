@@ -1,4 +1,4 @@
-#登录page_mail_pwd_login
+#委托方登录
 - info: 0密码登录
   type: css_selector
   element: 'div.ant-spin-nested-loading div.ant-spin-container div.index_box_2UojT div.index_container_1MNkV div.index_container_right_3Bvs9 div.index_loginWayTabs_1VLgK div.index_loginWayTab_4izMu:nth-child(2) > button.ant-btn.ant-btn-block'
