@@ -8,9 +8,9 @@ log = GetLogger.get_logger()
 
 @pytest.mark.parametrize("indata", get_read(get_file_path('scripts_data', 'change_role.yaml')))
 def test_change_role(driver, indata):
-    # 调用询价方法
+    # 调用切换角色方法
     change_Role = PageChangeRole(driver)
-    change_Role.changeRole()
+    change_Role.changeRole(indata["role1"])
     if indata["success"]:
         try:
             # 判断航程号存在

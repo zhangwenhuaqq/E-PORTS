@@ -1,2 +1,6 @@
 - name: 切换角色
   success: true
+  role1: Voyage Manger
+  role2: Ship Owner
+  role3: Ship Agent
+  role4: Supplier
