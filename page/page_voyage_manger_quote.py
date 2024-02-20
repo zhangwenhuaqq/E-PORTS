@@ -2,9 +2,9 @@ import page
 from base.base import Base
 from tools.get_yaml import *
 import time
-data = get_read(get_file_path('page_data','page_HC_quote.yaml'))
+data = get_read(get_file_path('page_data','page_voyage_manger_quote.yaml'))
 
-class PageHCQuote(Base):
+class PageVoyageMangerQuote(Base):
     #点击删除PortAgentFee服务项
     def page_click_delete_PortAgentFee(self):
         self.base_click(data[0]["type"],data[0]["element"])
@@ -73,7 +73,7 @@ class PageHCQuote(Base):
         return self.base_element_is_exist(data[17]["type"], data[17]["element"])
 
     #组合业务方法
-    def add_PageHCQuote(self,new_service,price1,price2):
+    def add_Page_Voyage_Manger_Quote(self,new_service,price1,price2):
         time.sleep(2)
         self.page_click_delete_PortAgentFee()
         time.sleep(2)
