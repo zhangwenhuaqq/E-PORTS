@@ -5,10 +5,9 @@ from tools.get_log import GetLogger
 from page.page_mail_pwd_login import PageLogin
 
 log = GetLogger.get_logger()
-scripts_data = get_read(get_file_path('scripts_data','scripts_data_mail_pwd_login.yaml'))
+scripts_data = get_read(get_file_path('scripts_data', 'scripts_data_mail_pwd_login.yaml'))
 
-@pytest.mark.run(order=1)
-@pytest.mark.parametrize("indata",scripts_data)
+@pytest.mark.parametrize("indata", scripts_data)
 def test_login(driver, indata):
     # 调用登录方法
     login = PageLogin(driver)
@@ -17,7 +16,7 @@ def test_login(driver, indata):
         try:
             # 判断用户昵称是否存在
             assert login.page_is_login_success()
-            #driver (driver.login.page_is_login_success())
+            # driver (driver.login.page_is_login_success())
             log.info("登录成功，用户昵称存在")
             # # 点击用户昵称
             # login.page_click_login_nickname()
@@ -49,5 +48,6 @@ def test_login(driver, indata):
             # 截图
             login.base_get_image()
 
-if __name__=='__name__':
+
+if __name__ == '__name__':
     pytest.main()

@@ -34,9 +34,9 @@ class PageLogin(Base):
     #截图
     def page_get_image(self):
         self.base_get_image()
-    #判断是否成功登录(检查首页"用户昵称"存在)
+    #判断“全部消息”标签存在，验证登录成功
     def page_is_login_success(self):
-        return self.base_element_is_exist(data[5]["type"],data[5]["element"])
+        return self.base_element_is_exist(data[9]["type"],data[9]["element"])
     #判断是否成功退登(检查登录页"密码登录"存在)
     def page_is_logout_success(self):
         return self.base_element_is_exist(data[0]["type"],data[0]["element"])
