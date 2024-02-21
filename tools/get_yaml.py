@@ -2,7 +2,6 @@ import yaml
 from tools.get_path import *
 from string import Template
 
-
 def get_read(filepath):
 
     with open(filepath,mode='r',encoding='utf-8') as f:

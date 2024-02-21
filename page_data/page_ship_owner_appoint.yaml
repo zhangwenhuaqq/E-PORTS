@@ -9,7 +9,7 @@
   type: css_selector
   element: 'div.qiankun-micro-app div.qiankun-micro-app-container div.router-wrapper div.main-wrapper section.ant-layout section.ant-layout main.container.ant-layout-content div.ant-spin-nested-loading div.ant-spin-container div.src-layouts-PageLayout-index-module__pageLayout--2dT3G div.src-layouts-PageLayout-index-module__pageContent--8vVSr div.ep-clearfix.appointment div.ant-spin-nested-loading div.ant-spin-container div.layout form.ant-form.ant-form-horizontal div.ant-card:nth-child(2) div.ant-card-body div.root div.content:nth-child(1) div.box div.ant-radio-group.ant-radio-group-outline.radioGroup label.ant-radio-wrapper > span:nth-child(2)'
 - info: 3勾选服务条款
-  type: xpath
+  type: css_selector
   element: 'div.qiankun-micro-app div.qiankun-micro-app-container div.router-wrapper div.main-wrapper section.ant-layout section.ant-layout main.container.ant-layout-content div.ant-spin-nested-loading div.ant-spin-container div.src-layouts-PageLayout-index-module__pageLayout--2dT3G div.src-layouts-PageLayout-index-module__pageContent--8vVSr div.ep-clearfix.appointment div.ant-spin-nested-loading div.ant-spin-container div.layout form.ant-form.ant-form-horizontal div.ant-card:nth-child(2) div.ant-card-body div.root div.content:nth-child(1) div.box div:nth-child(2) p.tips.first label.ant-checkbox-wrapper > span:nth-child(2)'
 - info: 4点击提交
   type: css_selector

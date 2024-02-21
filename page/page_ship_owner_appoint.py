@@ -1,5 +1,6 @@
 import page
-from base.base import Base
+from base.base_set import Base
+from tools.get_path import get_file_path
 from tools.get_yaml import *
 import time
 data = get_read(get_file_path('page_data','page_ship_owner_appoint.yaml'))
