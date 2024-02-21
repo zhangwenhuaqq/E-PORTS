@@ -104,3 +104,34 @@ class Base():
         else:
             js = "var q=document.documentElement.scrollTop=%d" % (leng)
         return self.driver.execute_script(js)
+    # 缩放
+    def narrow_key(self,js):
+        if js == "zoom_in":
+            self.driver.execute_script("document.body.style.zoom='1.2'")
+        if js == "zoom_out":
+            self.driver.execute_script("document.body.style.zoom='0.6'")
+    # 获取节点属性
+    def get_attr(self, value, data, locateType='xpath'):
+        el = self.locate(value, locateType)
+        attr_data = el.get_attribute(data)
+        return attr_data
+    # 鼠标右键操作
+    def actClick(self, value):
+        el = self.locate(value)
+        actions = ActionChains(self.driver)
+        actions.context_click(el)
+        actions.perform()
+    # 获取弹出框
+    def get_alert(self):
+        time.sleep(2)
+        text = self.driver.switch_to.alert.text
+        return text
+    # 选择下拉框
+    def get_Select(self, value, locateType='xpath'):
+        s = Select(self.locate(value, locateType))
+        return s
+    # 获取当前页面title
+    def get_title(self, driver):
+        time.sleep(2)
+        title = driver.title
+        return title
