@@ -1,10 +1,10 @@
 # 切换角色至航管
 - info: 0点击昵称
-  type: xpath
-  element: '/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/span[1]'
+  type: css_selector
+  element: 'div.header___2Uhn5:nth-child(1) div.headerInfo___3H6YW div.userWrapper___1KWhJ div.ant-dropdown-trigger.avatarContianer___1_ljY:nth-child(1) div.avatarName___27ptB > span.name___IW1ZM'
 - info: 1点击切换角色
-  type: xpath
-  element: '/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[6]/div[2]/div[1]/div[1]/ul[1]/li[2]/span[1]/div[1]'
+  type: css_selector
+  element: 'div.header___2Uhn5:nth-child(1) div.headerInfo___3H6YW div.userWrapper___1KWhJ div.ant-dropdown.ant-dropdown-placement-bottomRight ul.ant-dropdown-menu.ant-dropdown-menu-root.ant-dropdown-menu-vertical.ant-dropdown-menu-light:nth-child(1) li.ant-dropdown-menu-item.ant-dropdown-menu-item-only-child:nth-child(2) span.ant-dropdown-menu-title-content > div:nth-child(1)'
 - info: 2点击航管角色
   type: css_selector
   element: 'div.ant-spin-nested-loading div.ant-spin-container div.index_box_2UojT div.index_container_pWpNu div.index_container_right_3PojQ div.index_content_2b3xF ul.index_list_3_95P > li:nth-child(7)'

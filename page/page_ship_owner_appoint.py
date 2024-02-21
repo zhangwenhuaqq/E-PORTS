@@ -1,5 +1,5 @@
 import page
-from base.base_set import Base
+from base.base import Base
 from tools.get_path import get_file_path
 from tools.get_yaml import *
 import time
