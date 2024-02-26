@@ -1,5 +1,5 @@
 import page
-from base.base import Base
+from base.base_set import Base
 from tools.get_path import get_file_path
 from tools.get_yaml import *
 import time
@@ -37,13 +37,13 @@ class PageShipOwnerAppint(Base):
         self.page_click_appoint()
         time.sleep(2)
         self.page_click_appoint_confirm()
-        time.sleep(2)
+        time.sleep(1)
         self.page_click_pay()
-        time.sleep(2)
+        time.sleep(1)
         self.page_click_service()
-        time.sleep(2)
+        time.sleep(1)
         self.page_click_submit()
-        time.sleep(2)
+        time.sleep(1)
         self.page_order_detial()
 
 # if __name__=='__main__':

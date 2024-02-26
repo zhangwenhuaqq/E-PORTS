@@ -1,37 +1,38 @@
 import pytest
+
 from page.page_change_role import PageChangeRole
 from tools.get_path import get_file_path
 from tools.get_yaml import get_read
 from tools.get_log import GetLogger
-from page.page_ship_owner_appoint import PageShipOwnerAppint
+from page.page_agent_quote import PageAgentQuote
 
 log = GetLogger.get_logger()
 
-@pytest.mark.parametrize("indata", get_read(get_file_path('scripts_data', 'ship_owner_appoint.yaml')))
-def test_ship_owner_appoint(driver, indata):
-    #切换角色至船东
+@pytest.mark.parametrize("indata", get_read(get_file_path('scripts_data', 'agent_quote.yaml')))
+def test_agent_quote(driver, indata):
+    #切换至代理角色
     indata_role = get_read(get_file_path('scripts_data', 'change_role.yaml'))
     change_Role = PageChangeRole(driver)
-    change_Role.changeRole(indata_role[0]["role2"])
-    # 调用委托方法
-    ship_owner = PageShipOwnerAppint(driver)
-    ship_owner.add_ship_owner_appoint()
+    change_Role.changeRole(indata_role[0]["role3"])
+    # 调用报价方法
+    agent_quote = PageAgentQuote(driver)
+    agent_quote.add_Page_Agent_Quote(indata["new_service"], indata["price1"], indata["price2"])
     if indata["success"]:
         try:
             # 判断“预览”按钮存在
-            assert ship_owner.page_is_appoint_success()
-            log.info("委托方成功委托订单")
+            assert agent_quote.page_is_preiew_success()
+            log.info("代理成功报价")
         except Exception as e:
             log.error(e)
             # 截图
-            log.page_get_image()
+            agent_quote.page_get_image()
     else:
         try:
             pass
         except Exception as e:
             log.error(e)
             # 截图
-            log.base_get_image()
+            agent_quote.base_get_image()
 
 
 if __name__ == '__name__':

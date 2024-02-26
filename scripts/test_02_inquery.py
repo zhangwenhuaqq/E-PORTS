@@ -19,14 +19,14 @@ def test_inquery(driver, indata):
         except Exception as e:
             log.error(e)
             # 截图
-            log.page_get_image()
+            inquery.page_get_image()
     else:
         try:
             pass
         except Exception as e:
             log.error(e)
             # 截图
-            log.base_get_image()
+            inquery.base_get_image()
 
 
 if __name__ == '__name__':

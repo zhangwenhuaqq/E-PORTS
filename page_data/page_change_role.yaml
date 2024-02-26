@@ -11,9 +11,9 @@
 - info: 3点击我们开始吧
   type: css_selector
   element: 'div.ant-spin-nested-loading div.ant-spin-container div.index_box_2UojT div.index_container_pWpNu div.index_container_right_3PojQ div.index_footer_2OPy4 div.index_account_btn_3onEq button.ant-btn.ant-btn-primary.ant-btn-lg > span:nth-child(1)'
-- info: 4判断订单详情页航程号存在
+- info: 4判断订单详情页"更多"存在
   type: xpath
-  element: '/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/section[1]/section[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[2]'
+  element: '/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/section[1]/section[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/button[1]'
 - info: 5点击切换船东角色
   type: css_selector
   element: 'div.ant-spin-nested-loading div.ant-spin-container div.index_box_2UojT div.index_container_pWpNu div.index_container_right_3PojQ div.index_content_2b3xF ul.index_list_3_95P > li:nth-child(8)'

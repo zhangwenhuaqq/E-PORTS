@@ -1,7 +1,8 @@
-from base.base import Base
+from base.base_set import Base
 import page
 from tools.get_path import get_file_path
 from tools.get_yaml import get_read
+import time
 
 data = get_read(get_file_path('page_data','page_mail_pwd_login.yaml'))
 
@@ -43,6 +44,7 @@ class PageLogin(Base):
     #滑块
     def page_sw(self):
         self.sw(data[8]["type"],data[8]["element"])
+
     #组合业务方法
     def page_login(self,login_mail,pwd):
         self.page_change_password()
@@ -55,7 +57,6 @@ class PageLogin(Base):
             self.page_click_login_button()
         else:
             pass
-
 
 if __name__=='__main__':
     login=PageLogin()

@@ -1,0 +1,19 @@
+# 航管添加询价
+- info: 0航管添加询价
+  type: xpath
+  element: '/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/section[1]/section[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]'
+- info: 1点击选择代理下拉框
+  type: xpath
+  element: '/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/section[1]/section[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/div[1]/div[1]/div[1]/div[1]'
+- info: 2点击发布询价
+  type: css_selector
+  element: 'div.qiankun-micro-app div.qiankun-micro-app-container div.router-wrapper div.main-wrapper section.ant-layout section.ant-layout main.container.ant-layout-content div.ant-spin-nested-loading div.ant-spin-container div.src-layouts-PageLayout-index-module__pageLayout--2dT3G.src-pages-orderNew-index-module__detailBox--3NMYa div.src-layouts-PageLayout-index-module__pageContent--8vVSr div.src-pages-orderNew-index-module__boxInner--1IKiG div.src-pages-orderNew-index-module__operation--2uljc:nth-child(2) div.src-containers-NewListTabs-style-module__tabList--1a9KS div.ant-tabs.ant-tabs-top.src-pages-orderNew-index-module__tabList--2THBe.ant-tabs-card.ant-tabs-editable-card.ant-tabs-no-animation div.ant-tabs-content.ant-tabs-content-no-animated.ant-tabs-top-content.ant-tabs-card-content:nth-child(3) div.ant-tabs-tabpane.ant-tabs-tabpane-active:nth-child(2) div.ant-spin-nested-loading.src-pages-orderNew-index-module__spinBox--3YnOD:nth-child(2) div.ant-spin-container div.src-pages-orderNew-index-module__detailContain--f1OXY div.src-containers-AddInquirySubOrder-style-module__main--3vSyC div.src-containers-AddInquirySubOrder-style-module__btns--F8-s2 div:nth-child(2) > button.ant-btn.src-containers-AddInquirySubOrder-style-module__publishBtn--2Lcn3.ant-btn-primary'
+- info: 3点击确认按钮
+  type: css_selector
+  element: 'body.ant-scrolling-effect:nth-child(2) div.ant-modal-root div.ant-modal-wrap div.ant-modal div.ant-modal-content:nth-child(2) div.ant-modal-footer div:nth-child(1) > button.ant-btn.ant-btn-primary:nth-child(2)'
+- info: 4点击进入询价详情页
+  type: css_selector
+  element: 'body.ant-scrolling-effect:nth-child(2) div.ant-modal-root div.ant-modal-wrap div.ant-modal div.ant-modal-content:nth-child(2) div.ant-modal-body div.src-containers-AddInquirySubOrder-modal-module__inquirySuccessModalContent--3o3iC div.src-containers-AddInquirySubOrder-modal-module__centerContent--ToFMI > button.ant-btn.ant-btn-primary:nth-child(5)'
+- info: 5判断航程号存在
+  type: css_selector
+  element: 'div.qiankun-micro-app div.qiankun-micro-app-container div.router-wrapper div.main-wrapper section.ant-layout section.ant-layout main.container.ant-layout-content div.ant-spin-nested-loading div.ant-spin-container div.src-layouts-PageLayout-index-module__pageLayout--2dT3G.src-pages-orderNew-index-module__detailBox--3NMYa div.src-layouts-PageLayout-index-module__pageHeader--fwpFW div.src-layouts-PageLayout-index-module__heading--2IRYx:nth-child(2) div.src-layouts-PageLayout-index-module__extra--3qdgQ div.ep-card__menu--wrapper > button.ant-btn.moreBtn.ant-dropdown-trigger'

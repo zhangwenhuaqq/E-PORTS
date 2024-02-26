@@ -1,4 +1,6 @@
 import pytest
+
+from page.page_change_role import PageChangeRole
 from tools.get_path import get_file_path
 from tools.get_yaml import get_read
 from tools.get_log import GetLogger
@@ -8,6 +10,10 @@ log = GetLogger.get_logger()
 
 @pytest.mark.parametrize("indata", get_read(get_file_path('scripts_data', 'voyage_manger_quote.yaml')))
 def test_voyage_manger_quote(driver, indata):
+    #切换至航管角色
+    indata_role = get_read(get_file_path('scripts_data', 'change_role.yaml'))
+    change_Role = PageChangeRole(driver)
+    change_Role.changeRole(indata_role[0]["role1"])
     # 调用报价方法
     hc_quote = PageVoyageMangerQuote(driver)
     hc_quote.add_Page_Voyage_Manger_Quote(indata["new_service"], indata["price1"], indata["price2"])
@@ -19,14 +25,14 @@ def test_voyage_manger_quote(driver, indata):
         except Exception as e:
             log.error(e)
             # 截图
-            log.page_get_image()
+            hc_quote.page_get_image()
     else:
         try:
             pass
         except Exception as e:
             log.error(e)
             # 截图
-            log.base_get_image()
+            hc_quote.base_get_image()
 
 
 if __name__ == '__name__':

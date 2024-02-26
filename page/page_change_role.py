@@ -1,5 +1,5 @@
 import page
-from base.base import Base
+from base.base_set import Base
 from tools.get_path import get_file_path
 from tools.get_yaml import *
 import time
@@ -32,9 +32,7 @@ class PageChangeRole(Base):
     #截图
     def page_get_image(self):
         self.base_get_image()
-    # 判断详情页的航程号存在
-    def page_is_Voyage_NO_success(self):
-        return self.base_element_is_exist(data[4]["type"], data[4]["element"])
+
 
     #组合业务方法
     def changeRole(self,role):
@@ -45,6 +43,7 @@ class PageChangeRole(Base):
         self.page_click_role(role)
         time.sleep(1)
         self.page_click_we_start()
+        time.sleep(1)
 
 
 # if __name__=='__main__':
