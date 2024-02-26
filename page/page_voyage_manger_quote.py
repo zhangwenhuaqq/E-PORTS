@@ -1,5 +1,5 @@
 import page
-from base.base import Base
+from base.base_set import Base
 from tools.get_yaml import *
 import time
 data = get_read(get_file_path('page_data','page_voyage_manger_quote.yaml'))
@@ -74,7 +74,7 @@ class PageVoyageMangerQuote(Base):
 
     #组合业务方法
     def add_Page_Voyage_Manger_Quote(self,new_service,price1,price2):
-        time.sleep(2)
+        time.sleep(3)
         self.page_click_delete_PortAgentFee()
         time.sleep(2)
         self.page_click_delete_ortAgentFee_confirm()

@@ -104,12 +104,20 @@ class Base():
         else:
             js = "var q=document.documentElement.scrollTop=%d" % (leng)
         return self.driver.execute_script(js)
-    # 缩放
-    def narrow_key(self,js):
-        if js == "zoom_in":
-            self.driver.execute_script("document.body.style.zoom='1.2'")
-        if js == "zoom_out":
-            self.driver.execute_script("document.body.style.zoom='0.6'")
+    # 缩放(废弃)
+    def narrow_key(self,zoom):
+        if zoom == "zoom_in":
+            return self.driver.execute_script("document.body.style.zoom='1.2'")
+        else:
+            return self.driver.execute_script("document.body.style.zoom='0.7'")
+    # chrome设置缩放比例
+    def set_zoom(self,zoom):
+        self.driver.get('chrome://settings/')
+        if zoom == "zoom_in":
+            self.driver.execute_script('chrome.settingsPrivate.setDefaultZoom(1.2);')
+        elif zoom == "zoom_out":
+            self.driver.execute_script('chrome.settingsPrivate.setDefaultZoom(0.8);')
+        self.driver.back()
     # 获取节点属性
     def get_attr(self, value, data, locateType='xpath'):
         el = self.locate(value, locateType)
