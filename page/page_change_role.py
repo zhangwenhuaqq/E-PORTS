@@ -2,7 +2,7 @@ import page
 from base.base_set import Base
 from tools.get_path import get_file_path
 from tools.get_yaml import *
-import time
+from time import sleep
 data = get_read(get_file_path('page_data','page_change_role.yaml'))
 
 class PageChangeRole(Base):
@@ -37,13 +37,13 @@ class PageChangeRole(Base):
     #组合业务方法
     def changeRole(self,role):
         self.page_click_nickname()
-        time.sleep(1)
+        sleep(1)
         self.page_click_change_role()
-        time.sleep(1)
+        sleep(1)
         self.page_click_role(role)
-        time.sleep(1)
+        sleep(1)
         self.page_click_we_start()
-        time.sleep(1)
+        sleep(1)
 
 
 # if __name__=='__main__':

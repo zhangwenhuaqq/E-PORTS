@@ -2,7 +2,7 @@ import page
 from base.base_set import Base
 from tools.get_path import get_file_path
 from tools.get_yaml import *
-import time
+from time import sleep
 data = get_read(get_file_path('page_data','page_ship_owner_appoint.yaml'))
 
 class PageShipOwnerAppint(Base):
@@ -33,17 +33,17 @@ class PageShipOwnerAppint(Base):
 
     #组合业务方法
     def add_ship_owner_appoint(self):
-        time.sleep(2)
+        sleep(2)
         self.page_click_appoint()
-        time.sleep(2)
+        sleep(2)
         self.page_click_appoint_confirm()
-        time.sleep(1)
+        sleep(1)
         self.page_click_pay()
-        time.sleep(1)
+        sleep(1)
         self.page_click_service()
-        time.sleep(1)
+        sleep(1)
         self.page_click_submit()
-        time.sleep(1)
+        sleep(1)
         self.page_order_detial()
 
 # if __name__=='__main__':

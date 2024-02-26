@@ -1,8 +1,6 @@
 from base.base_set import Base
-import page
 from tools.get_path import get_file_path
 from tools.get_yaml import get_read
-import time
 
 data = get_read(get_file_path('page_data','page_mail_pwd_login.yaml'))
 
