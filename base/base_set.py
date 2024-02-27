@@ -90,7 +90,7 @@ class Base():
         except Exception as e:
             log.info("元素不存在：{}".format(loc))
             return False #代表元素不存在
- # 鼠标滚动
+    # 鼠标滚动
     def scroll_top(self):
         if self.driver.name == "Chrome":
             js = "var q=document.body.scrollTop=0"
@@ -118,6 +118,7 @@ class Base():
         elif zoom == "zoom_out":
             self.driver.execute_script('chrome.settingsPrivate.setDefaultZoom(0.8);')
         self.driver.back()
+
     # 获取节点属性
     def get_attr(self, value, data, locateType='xpath'):
         el = self.locate(value, locateType)

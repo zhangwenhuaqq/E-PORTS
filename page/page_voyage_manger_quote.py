@@ -5,6 +5,21 @@ from time import sleep
 data = get_read(get_file_path('page_data','page_voyage_manger_quote.yaml'))
 
 class PageVoyageMangerQuote(Base):
+    #点击子单
+    def page_click_agent_inquiry(self):
+        self.base_click(data[21]["type"],data[21]["element"])
+    #点击导入报价
+    def page_import_inquiry(self):
+        self.base_click(data[22]["type"],data[22]["element"])
+    #点击确认弹窗
+    def page_import_inquiry_confirm(self):
+        self.base_click(data[23]["type"],data[23]["element"])
+    #点击知道了
+    def page_I_know(self):
+        self.base_click(data[24]["type"],data[24]["element"])
+    #点击总单
+    def page_total_order(self):
+        self.base_click(data[25]["type"],data[25]["element"])
     #点击删除PortAgentFee服务项
     def page_click_delete_PortAgentFee(self):
         self.base_click(data[0]["type"],data[0]["element"])
@@ -26,24 +41,24 @@ class PageVoyageMangerQuote(Base):
     #点击确认删除按钮
     def page_click_delete_BunkeringAgent_confirm(self):
         self.base_click(data[6]["type"],data[6]["element"])
-    #点击Inward Formality编辑按钮
-    def page_click_edit_Inward_Formality(self):
-        self.base_click(data[7]["type"],data[7]["element"])
-    #输入价格
-    def page_input_Inward_Formality_price(self,price1):
-        self.base_input(data[8]["type"],data[8]["element"],price1)
-    #点击确认
-    def page_ckick_Inward_Formality_confirm(self):
-        self.base_click(data[9]["type"],data[9]["element"])
-    #点击Outward Formality编辑按钮
-    def page_click_edit_Outward_Formality(self):
-        self.base_click(data[10]["type"],data[10]["element"])
-    #输入价格
-    def page_input_Outward_Formality_price(self,price2):
-        self.base_input(data[11]["type"],data[11]["element"],price2)
-    #点击确认
-    def page_click_Outward_Formality_confirm(self):
-        self.base_click(data[12]["type"],data[12]["element"])
+    # #点击Inward Formality编辑按钮
+    # def page_click_edit_Inward_Formality(self):
+    #     self.base_click(data[7]["type"],data[7]["element"])
+    # #输入价格
+    # def page_input_Inward_Formality_price(self,price1):
+    #     self.base_input(data[8]["type"],data[8]["element"],price1)
+    # #点击确认
+    # def page_ckick_Inward_Formality_confirm(self):
+    #     self.base_click(data[9]["type"],data[9]["element"])
+    # #点击Outward Formality编辑按钮
+    # def page_click_edit_Outward_Formality(self):
+    #     self.base_click(data[10]["type"],data[10]["element"])
+    # #输入价格
+    # def page_input_Outward_Formality_price(self,price2):
+    #     self.base_input(data[11]["type"],data[11]["element"],price2)
+    # #点击确认
+    # def page_click_Outward_Formality_confirm(self):
+    #     self.base_click(data[12]["type"],data[12]["element"])
     #点击删除”新增服务项“按钮
     def page_click_delete_new_service(self):
         self.base_click(data[18]["type"],data[18]["element"])
@@ -73,8 +88,18 @@ class PageVoyageMangerQuote(Base):
         return self.base_element_is_exist(data[17]["type"], data[17]["element"])
 
     #组合业务方法
-    def add_Page_Voyage_Manger_Quote(self,new_service,price1,price2):
+    def add_Page_Voyage_Manger_Quote(self,new_service):
         sleep(4)
+        self.page_click_agent_inquiry()
+        sleep(2)
+        self.page_import_inquiry()
+        sleep(2)
+        self.page_import_inquiry_confirm()
+        sleep(2)
+        self.page_I_know()
+        sleep(2)
+        self.page_total_order()
+        sleep(6)
         self.page_click_delete_PortAgentFee()
         sleep(2)
         self.page_click_delete_ortAgentFee_confirm()
@@ -85,23 +110,25 @@ class PageVoyageMangerQuote(Base):
         sleep(2)
         self.page_click_add_service_confirm()
         sleep(2)
+        self.scroll_foot(400)
+        sleep(2)
         self.page_click_delete_BunkeringAgent()
         sleep(2)
         self.page_click_delete_BunkeringAgent_confirm()
         sleep(2)
-        self.page_click_edit_Inward_Formality()
-        self.scroll_foot(400)
-        sleep(2)
-        self.page_input_Inward_Formality_price(price1)
-        sleep(2)
-        self.page_ckick_Inward_Formality_confirm()
-        sleep(2)
-        self.page_click_edit_Outward_Formality()
-        sleep(2)
-        self.page_input_Outward_Formality_price(price2)
-        sleep(2)
-        self.page_click_Outward_Formality_confirm()
-        sleep(2)
+        # self.page_click_edit_Inward_Formality()
+        # self.scroll_foot(400)
+        # sleep(2)
+        # self.page_input_Inward_Formality_price(price1)
+        # sleep(2)
+        # self.page_ckick_Inward_Formality_confirm()
+        # sleep(2)
+        # self.page_click_edit_Outward_Formality()
+        # sleep(2)
+        # self.page_input_Outward_Formality_price(price2)
+        # sleep(2)
+        # self.page_click_Outward_Formality_confirm()
+        # sleep(2)
         self.page_click_delete_new_service()
         sleep(2)
         self.page_click_delete_new_service_confirm()

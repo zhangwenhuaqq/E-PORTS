@@ -1,5 +1,5 @@
 - name: 航管报价
   success: true
   new_service: "新增服务项"
-  price1: 1000
-  price2: 2000
+#  price1: 1000
+#  price2: 2000

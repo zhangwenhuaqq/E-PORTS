@@ -16,7 +16,7 @@ def test_voyage_manger_quote(driver, indata):
     change_Role.changeRole(indata_role[0]["role1"])
     # 调用报价方法
     hc_quote = PageVoyageMangerQuote(driver)
-    hc_quote.add_Page_Voyage_Manger_Quote(indata["new_service"], indata["price1"], indata["price2"])
+    hc_quote.add_Page_Voyage_Manger_Quote(indata["new_service"])
     if indata["success"]:
         try:
             # 判断“预览”按钮存在
