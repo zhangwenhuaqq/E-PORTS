@@ -1,0 +1,13 @@
+# 代理操作服务项
+- info: 0点击服务项后的“详情”按钮
+  type: css_selector
+  element: 'div.qiankun-micro-app div.qiankun-micro-app-container div.router-wrapper div.main-wrapper section.ant-layout section.ant-layout main.container.ant-layout-content div.ant-spin-nested-loading div.ant-spin-container div.src-layouts-PageLayout-index-module__pageLayout--2dT3G.src-pages-orderNew-index-module__detailBox--3NMYa div.src-layouts-PageLayout-index-module__pageContent--8vVSr div.src-pages-orderNew-index-module__boxInner--1IKiG div.src-pages-orderNew-index-module__operation--2uljc:nth-child(2) div.ant-spin-nested-loading.src-pages-orderNew-index-module__spinBox--3YnOD div.ant-spin-container div.src-pages-orderNew-index-module__detailContain--f1OXY div.orderDetail-tabs div.ant-tabs.ant-tabs-top.ant-tabs-line.ant-tabs-no-animation div.ant-tabs-content.ant-tabs-content-no-animated.ant-tabs-top-content:nth-child(3) div.ant-tabs-tabpane.ant-tabs-tabpane-active:nth-child(1) div.tabOperationsWrap:nth-child(2) div.serviceItem div.ServiceItemsTableBox div.src-containers-Order-ServiceItemList-index-module__serviceItemList--2cNJ- div:nth-child(1) div.src-containers-Order-ServiceItemBox-index-module__serviceItemsBox--1nKNB:nth-child(1) div.src-containers-Order-ServiceItemBox-index-module__header--ka8Qu div.src-containers-Order-ServiceItemBox-index-module__btns--1XYd8 > button.ant-btn.src-containers-Order-ServiceItemBox-index-module__btnDetail--3Q2OG:nth-child(2)'
+- info: 1点击弹窗“知道了”
+  type: css_selector
+  element: 'body.ant-scrolling-effect:nth-child(2) div.ant-modal-root div.ant-modal-wrap div.ant-modal.ant-modal-confirm.ant-modal-confirm-info div.ant-modal-content:nth-child(2) div.ant-modal-body div.ant-modal-confirm-body-wrapper div.ant-modal-confirm-btns > button.ant-btn.ant-btn-primary'
+- info: 2点击“提交”按钮
+  type: css_selector
+  element: 'body.ant-scrolling-effect:nth-child(2) div.ant-drawer.ant-drawer-right.ant-drawer-open.sliderDrawerWrap div.ant-drawer-content-wrapper div.ant-drawer-content div.ant-drawer-wrapper-body div.ant-drawer-body div.footer div.ant-btn-group > button.ant-btn.footerBtn.ant-btn-primary:nth-child(1)'
+- info: 3判断服务项变更信息正确
+  type: xpath
+  element: "//span[contains(text(),'请办理到港预报手续')]"

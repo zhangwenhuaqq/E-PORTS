@@ -33,7 +33,6 @@ class PageChangeRole(Base):
     def page_get_image(self):
         self.base_get_image()
 
-
     #组合业务方法
     def changeRole(self,role):
         sleep(4)
@@ -44,7 +43,6 @@ class PageChangeRole(Base):
         self.page_click_role(role)
         sleep(1)
         self.page_click_we_start()
-        sleep(1)
 
 
 # if __name__=='__main__':
