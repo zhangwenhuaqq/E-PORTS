@@ -1,0 +1,302 @@
+2024-02-19 16:12:38,909 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="6759201d31870b99c9eeba121cca9633")>
+2024-02-19 16:12:38,912 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:12:40,625 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:12:40,744 INFO [root][base.py (base_input:39)] - 成功获取元素：css_selector
+2024-02-19 16:12:40,759 INFO [root][base.py (base_input:42)] - 正在清空元素：css_selector
+2024-02-19 16:12:40,798 INFO [root][base.py (base_input:44)] - 正在输入元素：css_selector
+2024-02-19 16:12:41,016 INFO [root][base.py (base_input:39)] - 成功获取元素：css_selector
+2024-02-19 16:12:41,029 INFO [root][base.py (base_input:42)] - 正在清空元素：css_selector
+2024-02-19 16:12:41,057 INFO [root][base.py (base_input:44)] - 正在输入元素：css_selector
+2024-02-19 16:12:41,145 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:12:46,703 INFO [root][base.py (base_element_is_exist:91)] - 元素不存在：xpath
+2024-02-19 16:12:46,943 INFO [root][test_mail_pwd_login.py (test_login:21)] - 登录成功，用户昵称存在
+2024-02-19 16:12:46,947 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="6759201d31870b99c9eeba121cca9633")>
+2024-02-19 16:12:46,948 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:12:47,118 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:12:47,734 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="6759201d31870b99c9eeba121cca9633")>
+2024-02-19 16:12:47,734 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:12:47,789 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:12:47,849 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:16:27,516 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="d048171b2c7d3e8f7f71ccde0c3380b1")>
+2024-02-19 16:16:27,516 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:16:28,898 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:16:28,998 INFO [root][base.py (base_input:39)] - 成功获取元素：css_selector
+2024-02-19 16:16:29,006 INFO [root][base.py (base_input:42)] - 正在清空元素：css_selector
+2024-02-19 16:16:29,031 INFO [root][base.py (base_input:44)] - 正在输入元素：css_selector
+2024-02-19 16:16:29,170 INFO [root][base.py (base_input:39)] - 成功获取元素：css_selector
+2024-02-19 16:16:29,179 INFO [root][base.py (base_input:42)] - 正在清空元素：css_selector
+2024-02-19 16:16:29,197 INFO [root][base.py (base_input:44)] - 正在输入元素：css_selector
+2024-02-19 16:16:29,261 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:16:34,806 INFO [root][base.py (base_element_is_exist:91)] - 元素不存在：xpath
+2024-02-19 16:16:34,813 INFO [root][test_mail_pwd_login.py (test_login:21)] - 登录成功，用户昵称存在
+2024-02-19 16:16:34,815 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="d048171b2c7d3e8f7f71ccde0c3380b1")>
+2024-02-19 16:16:34,815 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:16:34,961 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:16:35,620 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:16:36,233 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:16:36,796 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:16:41,253 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:16:45,512 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:16:49,658 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:16:49,726 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:16:49,803 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:16:49,851 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:16:49,911 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:16:49,994 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:16:52,815 INFO [root][test_inquery.py (test_inquery:19)] - 成功发布询价
+2024-02-19 16:16:52,816 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="d048171b2c7d3e8f7f71ccde0c3380b1")>
+2024-02-19 16:16:52,816 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:16:52,869 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:16:52,928 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:18:11,689 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="5f58b312bc86ada3bdca0b44b0fa6742")>
+2024-02-19 16:18:11,689 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:18:13,228 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:18:13,345 INFO [root][base.py (base_input:39)] - 成功获取元素：css_selector
+2024-02-19 16:18:13,358 INFO [root][base.py (base_input:42)] - 正在清空元素：css_selector
+2024-02-19 16:18:13,391 INFO [root][base.py (base_input:44)] - 正在输入元素：css_selector
+2024-02-19 16:18:13,589 INFO [root][base.py (base_input:39)] - 成功获取元素：css_selector
+2024-02-19 16:18:13,601 INFO [root][base.py (base_input:42)] - 正在清空元素：css_selector
+2024-02-19 16:18:13,625 INFO [root][base.py (base_input:44)] - 正在输入元素：css_selector
+2024-02-19 16:18:13,717 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:18:18,919 INFO [root][base.py (base_element_is_exist:91)] - 元素不存在：xpath
+2024-02-19 16:18:18,929 INFO [root][test_mail_pwd_login.py (test_login:21)] - 登录成功，用户昵称存在
+2024-02-19 16:18:18,933 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="5f58b312bc86ada3bdca0b44b0fa6742")>
+2024-02-19 16:18:18,933 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:18:19,189 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:18:19,862 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:18:21,419 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:18:21,494 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:18:26,086 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:18:30,304 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:18:34,447 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:18:34,519 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:18:34,605 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:18:34,652 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:18:34,710 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:18:34,801 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:18:37,169 INFO [root][test_inquery.py (test_inquery:19)] - 成功发布询价
+2024-02-19 16:18:37,171 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="5f58b312bc86ada3bdca0b44b0fa6742")>
+2024-02-19 16:18:37,171 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:18:37,225 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:18:37,282 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:18:38,900 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:29:07,046 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="a33cd9d52a0e523230b26c17bf902f24")>
+2024-02-19 16:29:07,047 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:29:08,351 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:29:08,396 INFO [root][base.py (base_input:39)] - 成功获取元素：css_selector
+2024-02-19 16:29:08,435 INFO [root][base.py (base_input:42)] - 正在清空元素：css_selector
+2024-02-19 16:29:08,462 INFO [root][base.py (base_input:44)] - 正在输入元素：css_selector
+2024-02-19 16:29:08,641 INFO [root][base.py (base_input:39)] - 成功获取元素：css_selector
+2024-02-19 16:29:08,690 INFO [root][base.py (base_input:42)] - 正在清空元素：css_selector
+2024-02-19 16:29:08,713 INFO [root][base.py (base_input:44)] - 正在输入元素：css_selector
+2024-02-19 16:29:08,777 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:29:14,138 INFO [root][base.py (base_element_is_exist:91)] - 元素不存在：xpath
+2024-02-19 16:29:14,144 INFO [root][test_mail_pwd_login.py (test_login:21)] - 登录成功，用户昵称存在
+2024-02-19 16:29:14,146 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="a33cd9d52a0e523230b26c17bf902f24")>
+2024-02-19 16:29:14,146 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:29:14,218 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:29:15,193 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:29:16,228 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:29:16,799 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:29:21,253 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:29:25,481 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:29:29,625 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:29:29,675 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:29:29,747 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:29:29,795 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:29:29,863 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:29:29,979 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:29:32,767 INFO [root][test_inquery.py (test_inquery:19)] - 成功发布询价
+2024-02-19 16:29:32,769 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="a33cd9d52a0e523230b26c17bf902f24")>
+2024-02-19 16:29:32,769 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:29:32,811 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:29:33,076 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:29:34,647 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:29:34,684 ERROR [root][test_change_role.py (test_change_role:21)] - name 'inquery' is not defined
+2024-02-19 16:30:37,945 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="ffd58fa7d64ac1368287391ef6ee80ec")>
+2024-02-19 16:30:37,945 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:30:39,313 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:30:39,385 INFO [root][base.py (base_input:39)] - 成功获取元素：css_selector
+2024-02-19 16:30:39,395 INFO [root][base.py (base_input:42)] - 正在清空元素：css_selector
+2024-02-19 16:30:39,417 INFO [root][base.py (base_input:44)] - 正在输入元素：css_selector
+2024-02-19 16:30:39,566 INFO [root][base.py (base_input:39)] - 成功获取元素：css_selector
+2024-02-19 16:30:39,578 INFO [root][base.py (base_input:42)] - 正在清空元素：css_selector
+2024-02-19 16:30:39,594 INFO [root][base.py (base_input:44)] - 正在输入元素：css_selector
+2024-02-19 16:30:39,658 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:30:44,758 INFO [root][base.py (base_element_is_exist:91)] - 元素不存在：xpath
+2024-02-19 16:30:44,844 INFO [root][test_mail_pwd_login.py (test_login:21)] - 登录成功，用户昵称存在
+2024-02-19 16:30:44,846 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="ffd58fa7d64ac1368287391ef6ee80ec")>
+2024-02-19 16:30:44,847 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:30:45,056 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:30:45,936 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:30:47,174 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:30:47,247 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:30:51,878 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:30:56,125 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:31:00,288 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:31:00,339 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:31:00,415 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:31:00,462 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:31:00,527 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:31:00,608 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:31:02,836 INFO [root][test_inquery.py (test_inquery:19)] - 成功发布询价
+2024-02-19 16:31:02,838 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="ffd58fa7d64ac1368287391ef6ee80ec")>
+2024-02-19 16:31:02,838 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:31:03,070 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 16:31:03,137 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:31:04,749 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 16:31:08,069 INFO [root][test_change_role.py (test_change_role:19)] - 成功发布询价
+2024-02-19 17:52:21,849 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="4345b678230a8d7fbd1086a18f043bc7")>
+2024-02-19 17:52:21,852 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 17:52:23,329 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 17:52:23,422 INFO [root][base.py (base_input:39)] - 成功获取元素：css_selector
+2024-02-19 17:52:23,430 INFO [root][base.py (base_input:42)] - 正在清空元素：css_selector
+2024-02-19 17:52:23,455 INFO [root][base.py (base_input:44)] - 正在输入元素：css_selector
+2024-02-19 17:52:23,595 INFO [root][base.py (base_input:39)] - 成功获取元素：css_selector
+2024-02-19 17:52:23,603 INFO [root][base.py (base_input:42)] - 正在清空元素：css_selector
+2024-02-19 17:52:23,619 INFO [root][base.py (base_input:44)] - 正在输入元素：css_selector
+2024-02-19 17:52:23,684 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 17:52:28,883 INFO [root][base.py (base_element_is_exist:91)] - 元素不存在：xpath
+2024-02-19 17:52:29,032 INFO [root][test_mail_pwd_login.py (test_login:21)] - 登录成功，用户昵称存在
+2024-02-19 17:52:29,035 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="4345b678230a8d7fbd1086a18f043bc7")>
+2024-02-19 17:52:29,035 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 17:52:29,168 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 17:52:29,774 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 17:52:30,753 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 17:52:31,324 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 17:52:35,751 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 17:52:39,972 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 17:52:44,121 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 17:52:44,172 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 17:52:44,247 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 17:52:44,297 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 17:52:44,382 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 17:52:44,442 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 17:52:53,529 INFO [root][test_inquery.py (test_inquery:19)] - 成功发布询价
+2024-02-19 17:52:53,531 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="4345b678230a8d7fbd1086a18f043bc7")>
+2024-02-19 17:52:53,531 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 17:52:53,587 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 17:52:53,642 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 17:52:55,155 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 17:52:58,008 INFO [root][test_change_role.py (test_change_role:19)] - 成功切换角色至航管
+2024-02-19 17:52:58,010 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="4345b678230a8d7fbd1086a18f043bc7")>
+2024-02-19 17:52:58,010 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:06:36,038 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="90463997fa74b46edd3d1218c2f8e493")>
+2024-02-19 18:06:36,038 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:06:37,467 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:06:37,602 INFO [root][base.py (base_input:39)] - 成功获取元素：css_selector
+2024-02-19 18:06:37,614 INFO [root][base.py (base_input:42)] - 正在清空元素：css_selector
+2024-02-19 18:06:37,649 INFO [root][base.py (base_input:44)] - 正在输入元素：css_selector
+2024-02-19 18:06:37,848 INFO [root][base.py (base_input:39)] - 成功获取元素：css_selector
+2024-02-19 18:06:37,859 INFO [root][base.py (base_input:42)] - 正在清空元素：css_selector
+2024-02-19 18:06:37,882 INFO [root][base.py (base_input:44)] - 正在输入元素：css_selector
+2024-02-19 18:06:37,968 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:06:43,322 INFO [root][base.py (base_element_is_exist:91)] - 元素不存在：xpath
+2024-02-19 18:06:43,329 INFO [root][test_mail_pwd_login.py (test_login:21)] - 登录成功，用户昵称存在
+2024-02-19 18:06:43,331 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="90463997fa74b46edd3d1218c2f8e493")>
+2024-02-19 18:06:43,331 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:06:43,416 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:06:45,272 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:06:46,167 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:06:46,817 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:06:51,371 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:06:55,591 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:06:59,743 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:06:59,793 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:06:59,859 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:06:59,933 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:06:59,992 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:07:28,493 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="4eb4f0fa1a555b6331ad54b6d0f04df2")>
+2024-02-19 18:07:28,493 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:07:30,093 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:07:30,212 INFO [root][base.py (base_input:39)] - 成功获取元素：css_selector
+2024-02-19 18:07:30,229 INFO [root][base.py (base_input:42)] - 正在清空元素：css_selector
+2024-02-19 18:07:30,278 INFO [root][base.py (base_input:44)] - 正在输入元素：css_selector
+2024-02-19 18:07:30,513 INFO [root][base.py (base_input:39)] - 成功获取元素：css_selector
+2024-02-19 18:07:30,526 INFO [root][base.py (base_input:42)] - 正在清空元素：css_selector
+2024-02-19 18:07:30,551 INFO [root][base.py (base_input:44)] - 正在输入元素：css_selector
+2024-02-19 18:07:30,653 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:07:35,813 INFO [root][base.py (base_element_is_exist:91)] - 元素不存在：xpath
+2024-02-19 18:07:36,047 INFO [root][test_mail_pwd_login.py (test_login:21)] - 登录成功，用户昵称存在
+2024-02-19 18:07:36,050 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="4eb4f0fa1a555b6331ad54b6d0f04df2")>
+2024-02-19 18:07:36,050 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:07:36,222 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:07:36,750 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="4eb4f0fa1a555b6331ad54b6d0f04df2")>
+2024-02-19 18:07:36,750 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:07:36,804 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:07:36,867 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:07:38,442 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:07:43,953 INFO [root][base.py (base_element_is_exist:91)] - 元素不存在：xpath
+2024-02-19 18:07:43,953 ERROR [root][test_change_role.py (test_change_role:21)] - assert False
+ +  where False = <bound method PageChangeRole.page_is_Voyage_NO_success of <page.page_change_role.PageChangeRole object at 0x00000272E810A6A0>>()
+ +    where <bound method PageChangeRole.page_is_Voyage_NO_success of <page.page_change_role.PageChangeRole object at 0x00000272E810A6A0>> = <page.page_change_role.PageChangeRole object at 0x00000272E810A6A0>.page_is_Voyage_NO_success
+2024-02-19 18:07:43,959 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="4eb4f0fa1a555b6331ad54b6d0f04df2")>
+2024-02-19 18:07:43,961 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:08:00,682 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="2b8ee85f219d41466268b4265c190e1a")>
+2024-02-19 18:08:00,682 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:08:02,097 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:08:02,248 INFO [root][base.py (base_input:39)] - 成功获取元素：css_selector
+2024-02-19 18:08:02,265 INFO [root][base.py (base_input:42)] - 正在清空元素：css_selector
+2024-02-19 18:08:02,305 INFO [root][base.py (base_input:44)] - 正在输入元素：css_selector
+2024-02-19 18:08:02,515 INFO [root][base.py (base_input:39)] - 成功获取元素：css_selector
+2024-02-19 18:08:02,528 INFO [root][base.py (base_input:42)] - 正在清空元素：css_selector
+2024-02-19 18:08:02,552 INFO [root][base.py (base_input:44)] - 正在输入元素：css_selector
+2024-02-19 18:08:02,645 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:08:08,140 INFO [root][base.py (base_element_is_exist:91)] - 元素不存在：xpath
+2024-02-19 18:08:08,151 INFO [root][test_mail_pwd_login.py (test_login:21)] - 登录成功，用户昵称存在
+2024-02-19 18:08:08,153 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="2b8ee85f219d41466268b4265c190e1a")>
+2024-02-19 18:08:08,153 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:08:08,330 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:08:09,113 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:08:09,801 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:08:10,393 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:08:14,957 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:08:19,181 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:08:23,349 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:08:23,398 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:08:23,470 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:08:23,516 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:08:23,579 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:08:54,233 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="2b8ee85f219d41466268b4265c190e1a")>
+2024-02-19 18:08:54,233 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:08:54,292 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:08:54,361 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:08:55,969 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:08:59,348 INFO [root][test_change_role.py (test_change_role:19)] - 成功切换角色至航管
+2024-02-19 18:08:59,352 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="2b8ee85f219d41466268b4265c190e1a")>
+2024-02-19 18:08:59,353 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:11:28,596 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="3de496c0f0336f3770f6336cd4d3445d")>
+2024-02-19 18:11:28,596 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:11:30,190 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:11:30,306 INFO [root][base.py (base_input:39)] - 成功获取元素：css_selector
+2024-02-19 18:11:30,323 INFO [root][base.py (base_input:42)] - 正在清空元素：css_selector
+2024-02-19 18:11:30,363 INFO [root][base.py (base_input:44)] - 正在输入元素：css_selector
+2024-02-19 18:11:30,573 INFO [root][base.py (base_input:39)] - 成功获取元素：css_selector
+2024-02-19 18:11:30,585 INFO [root][base.py (base_input:42)] - 正在清空元素：css_selector
+2024-02-19 18:11:30,610 INFO [root][base.py (base_input:44)] - 正在输入元素：css_selector
+2024-02-19 18:11:30,716 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:11:36,251 INFO [root][base.py (base_element_is_exist:91)] - 元素不存在：xpath
+2024-02-19 18:11:36,262 INFO [root][test_mail_pwd_login.py (test_login:21)] - 登录成功，用户昵称存在
+2024-02-19 18:11:36,265 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="3de496c0f0336f3770f6336cd4d3445d")>
+2024-02-19 18:11:36,265 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:11:36,466 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:11:37,109 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:11:38,201 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:11:38,797 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:11:43,358 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:11:47,542 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:11:51,672 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:11:51,723 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:11:51,822 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:11:51,865 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:11:51,925 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:11:52,009 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:11:54,335 INFO [root][test_inquery.py (test_inquery:19)] - 成功发布询价
+2024-02-19 18:11:54,337 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="3de496c0f0336f3770f6336cd4d3445d")>
+2024-02-19 18:11:54,337 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:11:54,392 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
+2024-02-19 18:11:54,447 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:11:55,909 INFO [root][base.py (base_click:34)] - 正在点击元素：css_selector
+2024-02-19 18:11:59,048 INFO [root][test_change_role.py (test_change_role:19)] - 成功切换角色至航管
+2024-02-19 18:11:59,050 INFO [root][base.py (__init__:15)] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="3de496c0f0336f3770f6336cd4d3445d")>
+2024-02-19 18:11:59,050 INFO [root][base.py (base_click:34)] - 正在点击元素：xpath
