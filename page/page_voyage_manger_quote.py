@@ -2,7 +2,7 @@ import page
 from base.base_set import Base
 from tools.get_yaml import *
 from time import sleep
-data = get_read(get_file_path('page_data','page_voyage_manger_quote.yaml'))
+data = get_read(get_file_path('page_data','page_voyage_manager_quote.yaml'))
 
 class PageVoyageMangerQuote(Base):
     #点击子单
@@ -89,7 +89,7 @@ class PageVoyageMangerQuote(Base):
 
     #组合业务方法
     def add_Page_Voyage_Manger_Quote(self,new_service):
-        sleep(4)
+        sleep(5)
         self.page_click_agent_inquiry()
         sleep(2)
         self.page_import_inquiry()
@@ -99,7 +99,7 @@ class PageVoyageMangerQuote(Base):
         self.page_I_know()
         sleep(2)
         self.page_total_order()
-        sleep(6)
+        sleep(4)
         self.page_click_delete_PortAgentFee()
         sleep(2)
         self.page_click_delete_ortAgentFee_confirm()

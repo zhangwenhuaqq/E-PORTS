@@ -1,0 +1,22 @@
+# 航管委托代理
+- info: 0点击切换到子单
+  type: xpath
+  element: '/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/section[1]/section[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]'
+- info: 1点击委托按钮
+  type: css_selector
+  element: 'div.qiankun-micro-app div.qiankun-micro-app-container div.router-wrapper div.main-wrapper section.ant-layout section.ant-layout main.container.ant-layout-content div.ant-spin-nested-loading div.ant-spin-container div.src-layouts-PageLayout-index-module__pageLayout--2dT3G.src-pages-orderNew-index-module__detailBox--3NMYa div.src-layouts-PageLayout-index-module__pageContent--8vVSr div.src-pages-orderNew-index-module__boxInner--1IKiG div.src-pages-orderNew-index-module__operation--2uljc:nth-child(2) div.src-containers-NewListTabs-style-module__tabList--1a9KS div.ant-tabs.ant-tabs-top.src-pages-orderNew-index-module__tabList--2THBe.ant-tabs-card.ant-tabs-editable-card.ant-tabs-no-animation div.ant-tabs-content.ant-tabs-content-no-animated.ant-tabs-top-content.ant-tabs-card-content:nth-child(3) div.ant-tabs-tabpane.ant-tabs-tabpane-active:nth-child(2) div.ant-spin-nested-loading.src-pages-orderNew-index-module__spinBox--3YnOD:nth-child(2) div.ant-spin-container div.src-pages-orderNew-index-module__detailContain--f1OXY div.ant-spin-nested-loading div.ant-spin-container div.src-containers-InquirDetail-style-module__inquirDetail--2JYQy div.src-containers-InquirDetail-style-module__inquiryOrderDetail_tabs--3QxF8 div.ant-tabs.ant-tabs-top.ant-tabs-line.ant-tabs-no-animation div.ant-tabs-content.ant-tabs-content-no-animated.ant-tabs-top-content:nth-child(3) div.ant-tabs-tabpane.ant-tabs-tabpane-active:nth-child(1) div.src-containers-InquirDetail-style-module__quotation--1gOVU:nth-child(2) div.ant-row:nth-child(5) div.ant-col > button.ant-btn.ant-btn-primary:nth-child(2)'
+- info: 2点击确认委托
+  type: css_selector
+  element: 'body.ant-scrolling-effect:nth-child(2) div.ant-modal-root div.ant-modal-wrap div.ant-modal div.ant-modal-content:nth-child(2) div.ant-modal-footer div:nth-child(1) > button.ant-btn.ant-btn-primary:nth-child(2)'
+- info: 3点击提交
+  type: css_selector
+  element: 'div.qiankun-micro-app div.qiankun-micro-app-container div.router-wrapper div.main-wrapper section.ant-layout section.ant-layout main.container.ant-layout-content div.ant-spin-nested-loading div.ant-spin-container div.src-layouts-PageLayout-index-module__pageLayout--2dT3G div.src-layouts-PageLayout-index-module__pageContent--8vVSr div.ep-clearfix.appointment div.ant-spin-nested-loading div.ant-spin-container div.layout form.ant-form.ant-form-horizontal div.submit:nth-child(3) > button.ant-btn.ant-btn-primary'
+- info: 4点击确认按钮
+  type: css_selector
+  element: 'body.ant-scrolling-effect:nth-child(2) div.ant-modal-root div.ant-modal-wrap div.ant-modal.ant-modal-confirm.ant-modal-confirm-confirm div.ant-modal-content:nth-child(2) div.ant-modal-body div.ant-modal-confirm-body-wrapper div.ant-modal-confirm-btns > button.ant-btn.ant-btn-primary:nth-child(2)'
+- info: 5点击查看订单详情
+  type: css_selector
+  element: 'body.ant-scrolling-effect:nth-child(2) div.ant-modal-root div.ant-modal-wrap.modalSuccess div.ant-modal div.ant-modal-content:nth-child(2) div.ant-modal-body div:nth-child(4) > button.ant-btn:nth-child(1)'
+- info: 6判断”已委托“按钮存在
+  type: css_selector
+  element: 'div.qiankun-micro-app div.qiankun-micro-app-container div.router-wrapper div.main-wrapper section.ant-layout section.ant-layout main.container.ant-layout-content div.ant-spin-nested-loading div.ant-spin-container div.src-layouts-PageLayout-index-module__pageLayout--2dT3G.src-pages-orderNew-index-module__detailBox--3NMYa div.src-layouts-PageLayout-index-module__pageContent--8vVSr div.src-pages-orderNew-index-module__boxInner--1IKiG div.src-components-order-VoyageInfo-consignee-index-module__voyageInfo--3HpMi div.src-components-order-VoyageInfo-consignee-index-module__ship--TMWLA div.src-components-order-VoyageInfo-consignee-index-module__name--1ulTJ div.src-components-order-VoyageInfo-consignee-index-module__shipOperate---byNZ > div.src-components-order-VoyageInfo-consignee-index-module__orderStatusLabel--16WdL'

@@ -36,6 +36,7 @@ class PageChangeRole(Base):
 
     #组合业务方法
     def changeRole(self,role):
+        sleep(4)
         self.page_click_nickname()
         sleep(1)
         self.page_click_change_role()

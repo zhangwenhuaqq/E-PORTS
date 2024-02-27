@@ -2,7 +2,7 @@ import page
 from base.base_set import Base
 from tools.get_yaml import *
 from time import sleep
-data = get_read(get_file_path('page_data','page_voyage_manger_inquiry.yaml'))
+data = get_read(get_file_path('page_data','page_voyage_manager_inquiry.yaml'))
 
 class PageVoyageMangerInquiry(Base):
     #点击航管添加询价
@@ -32,7 +32,7 @@ class PageVoyageMangerInquiry(Base):
 
     #组合业务方法
     def add_Page_Voyage_Manger_inquiry(self,agent):
-        sleep(4)
+        sleep(5)
         self.page_click_add_inquiry()
         sleep(2)
         self.page_click_add_Agent(agent)

@@ -14,7 +14,7 @@ def test_voyage_manger_inquiry(driver, indata):
     #切换至航管角色
     indata_role = get_read(get_file_path('scripts_data', 'change_role.yaml'))
     change_Role = PageChangeRole(driver)
-    change_Role.changeRole(indata_role[0]["role1"])
+    change_Role.changeRole(indata_role[0]["Voyage_Manger"])
     # 调用航管询价方法
     hc_inquiry = PageVoyageMangerInquiry(driver)
     hc_inquiry.add_Page_Voyage_Manger_inquiry(indata["agent"])

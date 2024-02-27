@@ -68,13 +68,13 @@ class PageAgentQuote(Base):
     #截图
     def page_get_image(self):
         self.base_get_image()
-    # 判断判断“预览”按钮存在
-    def page_is_preiew_success(self):
+    # 判断“已报价”按钮存在
+    def page_is_quote_success(self):
         return self.base_element_is_exist(data[17]["type"], data[17]["element"])
 
     #组合业务方法
     def add_Page_Agent_Quote(self,new_service,price1,price2):
-        sleep(3)
+        sleep(5)
         self.page_click_delete_PortAgentFee()
         sleep(2)
         self.page_click_delete_ortAgentFee_confirm()

@@ -3,7 +3,7 @@ from page.page_change_role import PageChangeRole
 from tools.get_path import get_file_path
 from tools.get_yaml import get_read
 from tools.get_log import GetLogger
-from page.page_ship_owner_appoint import PageShipOwnerAppint
+from page.page_ship_owner_appoint import PageShipOwnerAppoint
 
 log = GetLogger.get_logger()
 
@@ -12,9 +12,9 @@ def test_ship_owner_appoint(driver, indata):
     #切换角色至船东
     indata_role = get_read(get_file_path('scripts_data', 'change_role.yaml'))
     change_Role = PageChangeRole(driver)
-    change_Role.changeRole(indata_role[0]["role2"])
+    change_Role.changeRole(indata_role[0]["Ship_Owner"])
     # 调用委托方法
-    ship_owner = PageShipOwnerAppint(driver)
+    ship_owner = PageShipOwnerAppoint(driver)
     ship_owner.add_ship_owner_appoint()
     if indata["success"]:
         try:
