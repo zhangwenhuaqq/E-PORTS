@@ -18,9 +18,9 @@ def test_agent_operate_service(driver, indata):
     Ship_Agent.agent_operate_service()
     if indata["success"]:
         try:
-            # 判断“预览”按钮存在
+            # 判断服务项变更信息存在
             assert Ship_Agent.page_is_service_change_success()
-            log.info("委托方成功委托订单")
+            log.info("服务项操作成功")
         except Exception as e:
             log.error(e)
             # 截图

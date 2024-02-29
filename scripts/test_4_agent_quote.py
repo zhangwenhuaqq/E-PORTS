@@ -19,7 +19,7 @@ def test_agent_quote(driver, indata):
     agent_quote.add_Page_Agent_Quote(indata["new_service"], indata["price1"], indata["price2"])
     if indata["success"]:
         try:
-            # 判断“预览”按钮存在
+            # 判断“已报价”按钮存在
             assert agent_quote.page_is_quote_success()
             log.info("代理成功报价")
         except Exception as e:

@@ -18,9 +18,9 @@ def test_voyage_manager_appoint(driver, indata):
     voyage_manager.add_voyage_manager_appoint()
     if indata["success"]:
         try:
-            # 判断“预览”按钮存在
+            # 判断“已委托”按钮存在
             assert voyage_manager.page_is_appoint_success()
-            log.info("委托方成功委托订单")
+            log.info("航管成功委托代理")
         except Exception as e:
             log.error(e)
             # 截图

@@ -6,8 +6,8 @@
   type: css_selector
   element: 'body.ant-scrolling-effect:nth-child(2) div.ant-modal-root div.ant-modal-wrap div.ant-modal.ant-modal-confirm.ant-modal-confirm-info div.ant-modal-content:nth-child(2) div.ant-modal-body div.ant-modal-confirm-body-wrapper div.ant-modal-confirm-btns > button.ant-btn.ant-btn-primary'
 - info: 2点击“提交”按钮
-  type: css_selector
-  element: 'body.ant-scrolling-effect:nth-child(2) div.ant-drawer.ant-drawer-right.ant-drawer-open.sliderDrawerWrap div.ant-drawer-content-wrapper div.ant-drawer-content div.ant-drawer-wrapper-body div.ant-drawer-body div.footer div.ant-btn-group > button.ant-btn.footerBtn.ant-btn-primary:nth-child(1)'
+  type: xpath
+  element: '/html[1]/body[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[1]/button[1]'
 - info: 3判断服务项变更信息正确
   type: xpath
   element: "//span[contains(text(),'请办理到港预报手续')]"

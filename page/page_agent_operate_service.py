@@ -23,7 +23,7 @@ class PageAgentOperateService(Base):
         self.base_get_image()
     #判断服务项变更信息正确
     def page_is_service_change_success(self):
-        return self.base_element_is_exist(data[6]["type"], data[6]["element"])
+        return self.base_element_is_exist(data[3]["type"], data[3]["element"])
 
     #组合业务方法
     def agent_operate_service(self):
@@ -35,6 +35,7 @@ class PageAgentOperateService(Base):
         self.page_click_service_detail_again()
         sleep(2)
         self.page_click_submit()
+        sleep(2)
 
 # if __name__=='__main__':
 #     login=PageLogin()

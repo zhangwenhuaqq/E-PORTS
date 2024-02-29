@@ -18,7 +18,7 @@ def test_ship_owner_appoint(driver, indata):
     ship_owner.add_ship_owner_appoint()
     if indata["success"]:
         try:
-            # 判断“预览”按钮存在
+            # 判断“已委托”按钮存在
             assert ship_owner.page_is_appoint_success()
             log.info("委托方成功委托订单")
         except Exception as e:
