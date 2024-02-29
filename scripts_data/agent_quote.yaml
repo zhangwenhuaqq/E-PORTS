@@ -1,4 +1,4 @@
-- name: 航管报价
+- name: 代理报价
   success: true
   new_service: "新增服务项"
   price1: 1000
