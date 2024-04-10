@@ -104,6 +104,10 @@ class Base():
         else:
             js = "var q=document.documentElement.scrollTop=%d" % (leng)
         return self.driver.execute_script(js)
+    # 鼠标滚动
+    def scrool(self):
+        actions = ActionChains()
+        actions.move_by_offset(0, 200).perform()
     # 缩放(废弃)
     def narrow_key(self,zoom):
         if zoom == "zoom_in":
