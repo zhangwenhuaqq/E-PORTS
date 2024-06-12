@@ -19,7 +19,6 @@ class PageInquery(Base):
     #选择港口
     def page_click_port(self,port):
         self.select_send(data[4]["type"],data[4]["element"],port)
-
     #选择服务类型
     def page_click_service(self,service):
         self.select_send(data[5]["type"],data[5]["element"],service)

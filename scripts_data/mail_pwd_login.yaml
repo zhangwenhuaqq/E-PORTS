@@ -1,4 +1,4 @@
 - name: 邮件/密码登录-账号与密码正常
-  mail: chuandong@163.com
+  mail: wt_01@163.com
   pwd: 123qwe
   success: true

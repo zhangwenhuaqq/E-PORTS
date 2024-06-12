@@ -9,8 +9,8 @@ from tools.get_path import get_file_path
 
 log = GetLogger.get_logger()
 
-class EmailHandler:
 
+class EmailHandler:
 
     def __init__(self) -> object:
         self.my_sender = '18217555671@163.com'  # 发件人邮箱账号

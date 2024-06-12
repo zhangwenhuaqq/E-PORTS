@@ -7,7 +7,7 @@
   element: 'div.header___2Uhn5:nth-child(1) div.headerInfo___3H6YW div.userWrapper___1KWhJ div.ant-dropdown.ant-dropdown-placement-bottomRight ul.ant-dropdown-menu.ant-dropdown-menu-root.ant-dropdown-menu-vertical.ant-dropdown-menu-light:nth-child(1) li.ant-dropdown-menu-item.ant-dropdown-menu-item-only-child:nth-child(2) span.ant-dropdown-menu-title-content > div:nth-child(1)'
 - info: 2点击航管角色
   type: css_selector
-  element: 'div.ant-spin-nested-loading div.ant-spin-container div.index_box_2UojT div.index_container_pWpNu div.index_container_right_3PojQ div.index_content_2b3xF ul.index_list_3_95P > li:nth-child(7)'
+  element: 'div.ant-spin-nested-loading div.ant-spin-container div.index_box_2UojT div.index_container_pWpNu div.index_container_right_3PojQ div.index_content_2b3xF ul.index_list_3_95P > li:nth-child(3)'
 - info: 3点击我们开始吧
   type: css_selector
   element: 'div.ant-spin-nested-loading div.ant-spin-container div.index_box_2UojT div.index_container_pWpNu div.index_container_right_3PojQ div.index_footer_2OPy4 div.index_account_btn_3onEq button.ant-btn.ant-btn-primary.ant-btn-lg > span:nth-child(1)'
@@ -16,10 +16,10 @@
   element: '/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/section[1]/section[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/button[1]'
 - info: 5点击切换船东角色
   type: css_selector
-  element: 'div.ant-spin-nested-loading div.ant-spin-container div.index_box_2UojT div.index_container_pWpNu div.index_container_right_3PojQ div.index_content_2b3xF ul.index_list_3_95P > li:nth-child(8)'
+  element: 'div.ant-spin-nested-loading div.ant-spin-container div.index_box_2UojT div.index_container_pWpNu div.index_container_right_3PojQ div.index_content_2b3xF ul.index_list_3_95P > li:nth-child(4)'
 - info: 6点击切换代理角色
   type: css_selector
-  element: 'div.ant-spin-nested-loading div.ant-spin-container div.index_box_2UojT div.index_container_pWpNu div.index_container_right_3PojQ div.index_content_2b3xF ul.index_list_3_95P > li:nth-child(4)'
+  element: 'div.ant-spin-nested-loading div.ant-spin-container div.index_box_2UojT div.index_container_pWpNu div.index_container_right_3PojQ div.index_content_2b3xF ul.index_list_3_95P > li:nth-child(2)'
 - info: 7切换供油商角色
   type: css_selector
-  element: 'div.ant-spin-nested-loading div.ant-spin-container div.index_box_2UojT div.index_container_pWpNu div.index_container_right_3PojQ div.index_content_2b3xF ul.index_list_3_95P > li:nth-child(5)'
+  element: 'div.ant-spin-nested-loading div.ant-spin-container div.index_box_2UojT div.index_container_pWpNu div.index_container_right_3PojQ div.index_content_2b3xF ul.index_list_3_95P > li:nth-child(1)'

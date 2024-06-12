@@ -23,5 +23,5 @@ def get_run_data(filepath,data:dict):
 
 
 if __name__=='__main__':
-    get_data = get_write(get_file_path('page_data','test_data.yaml'),'画好')
-
+    get_data = get_read(get_file_path('page_data','test_data.yaml'))
+    print(get_data['记录订单号'])

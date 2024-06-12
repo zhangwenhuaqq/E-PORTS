@@ -2,6 +2,7 @@ import pytest
 from configparser import ConfigParser
 from base.get_driver import get_driver
 
+
 @pytest.fixture(scope='session', autouse=True)
 def driver():
     driver = get_driver()

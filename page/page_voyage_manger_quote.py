@@ -89,7 +89,7 @@ class PageVoyageMangerQuote(Base):
 
     #组合业务方法
     def add_Page_Voyage_Manger_Quote(self,new_service):
-        sleep(4)
+        sleep(6)
         self.page_click_agent_inquiry()
         sleep(2)
         self.page_import_inquiry()

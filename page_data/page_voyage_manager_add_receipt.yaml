@@ -1,0 +1,40 @@
+# 航管拒绝代理DN账单和接收TA
+- info: 0切换结算管理
+  type: css_selector
+  element: 'div.header___2Uhn5:nth-child(1) div.topMenu___11GKd ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-dark:nth-child(1) li.ant-menu-overflow-item.ant-menu-item.ant-menu-item-only-child:nth-child(4) span.ant-menu-title-content div.label___Vj8WE > span:nth-child(1)'
+- info: 1点击查看订单
+  type: css_selector
+  element: 'div.qiankun-micro-app div.qiankun-micro-app-container div.page___HgVRF div.ant-spin-nested-loading div.ant-spin-container section.ant-layout div.pageLayout___1hk16 main.ant-layout-content div.pageContent___3kLrL div.ant-row div.ant-col.ant-col-5:nth-child(1) div.box___1hLwT div:nth-child(1) div.bottom___3IpCw div.box___3NBdN > div.boxItem___1blbH:nth-child(2)'
+- info: 2点击航程号输入框
+  type: xpath
+  element: '/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/span[1]/input[1]'
+- info: 3点击搜索按钮
+  type: xpath
+  element: "//body/div[@id='root-master']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[2]"
+- info: 4点击订单详情
+  type: css_selector
+  element: 'div.qiankun-micro-app div.qiankun-micro-app-container div.ant-spin-nested-loading div.ant-spin-container section.ant-layout div.pageLayout___1hk16 main.ant-layout-content div.pageContent___3kLrL div.orderList___1e8CP div.box___1hLwT:nth-child(3) div.orderTable___2gRtC div.ant-table-wrapper div.ant-spin-nested-loading div.ant-spin-container div.ant-table.ant-table-small.ant-table-bordered.ant-table-ping-right.ant-table-fixed-column.ant-table-scroll-horizontal.ant-table-has-fix-right div.ant-table-container div.ant-table-content tbody.ant-table-tbody:nth-child(3) tr.ant-table-row.ant-table-row-level-0 td.ant-table-cell.ant-table-cell-fix-right.ant-table-cell-fix-right-first:nth-child(30) a:nth-child(1) > svg:nth-child(1)'
+- info: 5点击总单收款管理
+  type: css_selector
+  element: 'div.qiankun-micro-app div.qiankun-micro-app-container div.page___2F2Vx div.ant-spin-nested-loading div.ant-spin-container section.ant-layout div.pageLayout___1hk16 main.ant-layout-content div.pageContent___3kLrL div.inner___3g1AA div.tabOperation___2tX3t div.box___1hLwT div.ant-tabs.ant-tabs-top.newListTabs___1eQ9E div.ant-tabs-nav div.ant-tabs-nav-wrap div.ant-tabs-nav-list > div.ant-tabs-tab:nth-child(2)'
+- info: 6点击添加收款
+  type: css_selector
+  element: 'div.qiankun-micro-app div.qiankun-micro-app-container div.page___2F2Vx div.ant-spin-nested-loading div.ant-spin-container section.ant-layout div.pageLayout___1hk16 main.ant-layout-content div.pageContent___3kLrL div.inner___3g1AA div.tabOperation___2tX3t div.box___1hLwT div.ant-tabs.ant-tabs-top.newListTabs___1eQ9E div.ant-tabs-content-holder div.ant-tabs-content.ant-tabs-content-top div.ant-tabs-tabpane.ant-tabs-tabpane-active:nth-child(2) div.wrapper___ch8KJ div.header___2QWQk div.ant-space.ant-space-horizontal.ant-space-align-center:nth-child(2) div.ant-space-item:nth-child(1) > button.ant-btn.ant-btn-default.btn___BeHfg'
+- info: 7添加收款流水号
+  type: css_selector
+  element: "#receiptAmountFlowNumber"
+- info: 8点击上传收款凭证
+  type: css_selector
+  element: "div.ant-modal-root div.ant-modal-wrap.ant-modal-centered div.ant-modal.voyageReceiptModal___25ky0 div.ant-modal-content:nth-child(2) div.ant-modal-body form.ant-form.ant-form-horizontal div.consigner___3kMUq div.ant-row.row___QWwVb:nth-child(2) div.ant-col.right___2El4W:nth-child(2) div.ant-form-item div.ant-row.ant-form-item-row div.ant-col.ant-form-item-control:nth-child(2) div.ant-form-item-control-input div.ant-form-item-control-input-content span.customUpload___17Aqn div.ant-upload.ant-upload-select.ant-upload-select-text span.ant-upload > button.ant-btn.ant-btn-default.ep-upload__btn___278bN.ep-upload__button___30ZkW:nth-child(2)"
+- info: 9输入凭证流水金额
+  type: css_selector
+  element: '#voucherAmount'
+- info: 10输入收款公司
+  type: css_selector
+  element: '#receiptCompany'
+- info: 11点击确认按钮
+  type: css_selector
+  element: 'div.ant-modal-root div.ant-modal-wrap.ant-modal-centered div.ant-modal.voyageReceiptModal___25ky0 div.ant-modal-content:nth-child(2) div.ant-modal-footer button.ant-btn.ant-btn-primary:nth-child(2) > span:nth-child(1)'
+- info: 12判断添加收款按钮存在
+  type: css_selector
+  element: 'div.qiankun-micro-app div.qiankun-micro-app-container div.page___2F2Vx div.ant-spin-nested-loading div.ant-spin-container section.ant-layout div.pageLayout___1hk16 main.ant-layout-content div.pageContent___3kLrL div.inner___3g1AA div.tabOperation___2tX3t div.box___1hLwT div.ant-tabs.ant-tabs-top.newListTabs___1eQ9E div.ant-tabs-content-holder div.ant-tabs-content.ant-tabs-content-top div.ant-tabs-tabpane.ant-tabs-tabpane-active:nth-child(2) div.wrapper___ch8KJ div.header___2QWQk div.ant-space.ant-space-horizontal.ant-space-align-center:nth-child(2) div.ant-space-item:nth-child(1) > button.ant-btn.ant-btn-default.btn___BeHfg'

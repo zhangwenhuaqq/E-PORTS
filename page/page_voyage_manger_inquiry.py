@@ -32,7 +32,7 @@ class PageVoyageMangerInquiry(Base):
 
     #组合业务方法
     def add_Page_Voyage_Manger_inquiry(self,agent):
-        sleep(4)
+        sleep(6)
         self.page_click_add_inquiry()
         sleep(2)
         self.page_click_add_Agent(agent)

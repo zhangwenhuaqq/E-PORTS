@@ -1,4 +1,4 @@
-# 代理编辑默认的DN和添加TA
+# 代理方添加账单
 - info: 0点击”账单管理“title
   type: css_selector
   element: 'div.qiankun-micro-app div.qiankun-micro-app-container div.router-wrapper div.main-wrapper section.ant-layout section.ant-layout main.container.ant-layout-content div.ant-spin-nested-loading div.ant-spin-container div.src-layouts-PageLayout-index-module__pageLayout--2dT3G.src-pages-orderNew-index-module__detailBox--3NMYa div.src-layouts-PageLayout-index-module__pageContent--8vVSr div.src-pages-orderNew-index-module__boxInner--1IKiG div.src-pages-orderNew-index-module__operation--2uljc:nth-child(2) div.ant-spin-nested-loading.src-pages-orderNew-index-module__spinBox--3YnOD div.ant-spin-container div.src-pages-orderNew-index-module__detailContain--f1OXY div.orderDetail-tabs div.ant-tabs.ant-tabs-top.ant-tabs-line.ant-tabs-no-animation div.ant-tabs-bar.ant-tabs-top-bar:nth-child(1) div.ant-tabs-nav-container div.ant-tabs-nav-wrap div.ant-tabs-nav-scroll div.ant-tabs-nav.ant-tabs-nav-animated div:nth-child(1) div.ant-tabs-tab:nth-child(6) div:nth-child(1) > span.redDot.ant-badge'

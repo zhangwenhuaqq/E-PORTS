@@ -7,11 +7,12 @@ from page.page_mail_pwd_login import PageLogin
 log = GetLogger.get_logger()
 scripts_data = get_read(get_file_path('scripts_data', 'mail_pwd_login.yaml'))
 
+
 @pytest.mark.parametrize("indata", scripts_data)
 def test_login(driver, indata):
     # 调用登录方法
     login = PageLogin(driver)
-    login.page_login(indata["mail"],indata["pwd"])
+    login.page_login(indata["mail"], indata["pwd"])
     if indata["success"]:
         try:
             # 判断用户昵称是否存在

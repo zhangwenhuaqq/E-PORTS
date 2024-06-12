@@ -3,9 +3,9 @@ from base.base_set import Base
 from tools.get_path import get_file_path
 from tools.get_yaml import *
 from time import sleep
-data = get_read(get_file_path('page_data','page_agent_add_bill.yaml'))
+data = get_read(get_file_path('page_data','page_voyage_manager_add_bill.yaml'))
 
-class PageAgentAddBill(Base):
+class PageManagerAddBill(Base):
     #点击”账单管理“title
     def page_click_bill_title(self):
         self.base_click(data[0]["type"],data[0]["element"])
@@ -24,6 +24,12 @@ class PageAgentAddBill(Base):
     #点击”下载“按钮
     def page_click_DN_download(self):
         self.base_click(data[5]["type"],data[5]["element"])
+    #点击“DN代确认按钮”
+    def page_click_DN_confirm(self):
+        self.base_click(data[12]["type"],data[12]["element"])
+    #点击“DN代确认按钮”-确认
+    def page_click_confirm(self):
+        self.base_click(data[13]["type"],data[13]["element"])
     #点击添加账单
     def page_click_add_bill(self):
         self.base_click(data[6]["type"],data[6]["element"])
@@ -42,12 +48,12 @@ class PageAgentAddBill(Base):
     #截图
     def page_get_image(self):
         self.base_get_image()
-    #判断添加服务按钮存在
+    #判断服务项变更信息正确
     def page_is_add_service_success(self):
         return self.base_element_is_exist(data[11]["type"], data[11]["element"])
 
     #组合业务方法
-    def agent_add_bill(self,money):
+    def manager_add_bill(self,money):
         self.page_click_bill_title()
         sleep(2)
         self.page_click_DN_edit()
@@ -67,6 +73,10 @@ class PageAgentAddBill(Base):
         self.page_click_bill_title()
         sleep(2)
         self.page_click_DN_download()
+        sleep(2)
+        self.page_click_DN_confirm()
+        sleep(2)
+        self.page_click_confirm()
         sleep(2)
         self.page_click_add_bill()
         sleep(4)

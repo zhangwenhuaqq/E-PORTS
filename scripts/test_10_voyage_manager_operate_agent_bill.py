@@ -15,7 +15,7 @@ def test_voyage_manager_operate_agent_Bill(driver, indata):
     change_Role.changeRole(indata_role[0]["Voyage_Manger"])
     # 调用航管操作子单账单方法
     OperateAgentBill = PageVoyageManagerOperateAgentBill(driver)
-    OperateAgentBill.voyage_manager_operate_agent_Bill(indata["reason"])
+    OperateAgentBill.voyage_manager_operate_agent_Bill()
     if indata["success"]:
         try:
             # 判断服务项变更信息存在
