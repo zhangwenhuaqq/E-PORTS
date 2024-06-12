@@ -3,9 +3,9 @@ from base.base_set import Base
 from tools.get_path import get_file_path
 from tools.get_yaml import *
 from time import sleep
-data = get_read(get_file_path('page_data','page_voyage_manager_add_receipt.yaml'))
+data = get_read(get_file_path('page_data','page_voyage_manager_total_add_receipt.yaml'))
 
-class PageVoyageManagerAddReceipt(Base):
+class PageVoyageManagerTotalAddReceipt(Base):
     #切换结算管理
     def page_click_settlement(self):
         self.base_click(data[0]["type"],data[0]["element"])
@@ -38,7 +38,7 @@ class PageVoyageManagerAddReceipt(Base):
         self. base_input(data[9]["type"],data[9]["element"],Voucher_flow_amount)
     #输入收款公司
     def page_click_Name_receiver(self,Name_receiver):
-        self. base_input(data[10]["type"],data[10]["element"],Name_receiver)
+        self.select_send(data[10]["type"],data[10]["element"],Name_receiver)
     #点击确认按钮
     def page_click_confirm(self):
         self.base_click(data[11]["type"],data[11]["element"])
@@ -50,7 +50,7 @@ class PageVoyageManagerAddReceipt(Base):
         return self.base_element_is_exist(data[12]["type"], data[12]["element"])
 
     #组合业务方法
-    def voyage_Manager_Add_Settlement_receipt(self,voyage_no,Collection_Serial_Number,Voucher_flow_amount,Name_receiver):
+    def voyage_Manager_Total_Add_Settlement_receipt(self,voyage_no,Collection_Serial_Number,Voucher_flow_amount,Name_receiver):
         sleep(3)
         self.page_click_settlement()
         sleep(4)

@@ -1,0 +1,31 @@
+# 航管-结算管理-子单添加付款
+- info: 0切换子单
+  type: css_selector
+  element: 'div.qiankun-micro-app div.qiankun-micro-app-container div.page___2F2Vx div.ant-spin-nested-loading div.ant-spin-container section.ant-layout div.pageLayout___1hk16 main.ant-layout-content div.pageContent___3kLrL div:nth-child(1) div.inner___3g1AA div.tabOperation___2tX3t div.tabs___3BJ8X > div.tabItem___11I_z:nth-child(2)'
+- info: 1点击支付管理
+  type: css_selector
+  element: '#rc-tabs-1-tab-payable'
+- info: 2点击添加付款
+  type: css_selector
+  element: 'div.qiankun-micro-app div.qiankun-micro-app-container div.page___2F2Vx div.ant-spin-nested-loading div.ant-spin-container section.ant-layout div.pageLayout___1hk16 main.ant-layout-content div.pageContent___3kLrL div.inner___3g1AA div.tabOperation___2tX3t div.box___1hLwT div.ant-tabs.ant-tabs-top.newListTabs___1eQ9E div.ant-tabs-content-holder div.ant-tabs-content.ant-tabs-content-top div.ant-tabs-tabpane.ant-tabs-tabpane-active:nth-child(2) div.ant-spin-nested-loading div.ant-spin-container div.wrapper___ch8KJ div.header___2QWQk div.ant-space.ant-space-horizontal.ant-space-align-center:nth-child(2) div.ant-space-item:nth-child(1) button.ant-btn.ant-btn-default.btn___BeHfg > span:nth-child(1)'
+- info: 3输入付款公司名称
+  type: css_selector
+  element: "#remittanceCompany"
+- info: 4点击付款时间
+  type: css_selector
+  element: 'div.ant-modal-root div.ant-modal-wrap div.ant-modal.voyageManagerModal___1s1Ho div.ant-modal-content:nth-child(2) div.ant-modal-body form.ant-form.ant-form-horizontal div.modalInner___3cvVw div.payInfo___2J4B9 div.box___2Jw37:nth-child(4) div.left___2kwZi div.ant-form-item div.ant-row.ant-form-item-row div.ant-col.ant-form-item-control:nth-child(2) div.ant-form-item-control-input div.ant-form-item-control-input-content div.ant-picker > div.ant-picker-input'
+- info: 5点击今天
+  type: css_selector
+  element: 'div.ant-picker-dropdown.ant-picker-dropdown-placement-bottomLeft div.ant-picker-panel-container div.ant-picker-panel div.ant-picker-footer > a.ant-picker-today-btn'
+- info: 6点击上传凭证
+  type: css_selector
+  element: 'div.ant-modal-root div.ant-modal-wrap div.ant-modal.voyageManagerModal___1s1Ho div.ant-modal-content:nth-child(2) div.ant-modal-body form.ant-form.ant-form-horizontal div.modalInner___3cvVw div.payInfo___2J4B9 div.box___2Jw37:nth-child(1) div.right___2sNV- div.ant-form-item div.ant-row.ant-form-item-row div.ant-col.ant-form-item-control:nth-child(2) div.ant-form-item-control-input div.ant-form-item-control-input-content span.customUpload___17Aqn div.ant-upload.ant-upload-select.ant-upload-select-text span.ant-upload button.ant-btn.ant-btn-default.ep-upload__btn___278bN.ep-upload__button___30ZkW:nth-child(2) > span:nth-child(2)'
+- info: 7添加付款流水号
+  type: css_selector
+  element: "#payAmountFlowNumber"
+- info: 8点击确认按钮
+  type: css_selector
+  element: "div.ant-modal-root div.ant-modal-wrap div.ant-modal.voyageManagerModal___1s1Ho div.ant-modal-content:nth-child(2) div.ant-modal-footer button.ant-btn.ant-btn-primary:nth-child(2) > span:nth-child(1)"
+- info: 9判断添加付款按钮存在
+  type: css_selector
+  element: 'div.qiankun-micro-app div.qiankun-micro-app-container div.page___2F2Vx div.ant-spin-nested-loading div.ant-spin-container section.ant-layout div.pageLayout___1hk16 main.ant-layout-content div.pageContent___3kLrL div.inner___3g1AA div.tabOperation___2tX3t div.box___1hLwT div.ant-tabs.ant-tabs-top.newListTabs___1eQ9E div.ant-tabs-content-holder div.ant-tabs-content.ant-tabs-content-top div.ant-tabs-tabpane.ant-tabs-tabpane-active:nth-child(2) div.ant-spin-nested-loading div.ant-spin-container div.wrapper___ch8KJ div.header___2QWQk div.ant-space.ant-space-horizontal.ant-space-align-center:nth-child(2) div.ant-space-item:nth-child(1) button.ant-btn.ant-btn-default.btn___BeHfg > span:nth-child(1)'

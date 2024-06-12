@@ -1,5 +1,0 @@
-- name: 航管审核代理账单
-  success: true
-  Collection_Serial_Number: "X9888888"
-  Voucher_flow_amount: "23"
-  Name_receiver: "上海翼舶港"

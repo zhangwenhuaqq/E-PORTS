@@ -74,8 +74,8 @@ class Base():
         app = Desktop()
         dialog = app['打开']  # 根据名字找到弹出窗口
         dialog["Edit"].type_keys(dir_path + '\\image\\image2023_12_2913_28_S.png')  # 在输入框中输入值
-        dialog["Button"].click()
         time.sleep(2)
+        dialog["Button"].click()
         dialog["Button"].click()
 
 
