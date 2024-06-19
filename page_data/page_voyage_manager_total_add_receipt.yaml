@@ -1,7 +1,7 @@
 # 航管-结算管理总单添加收款
 - info: 0切换结算管理
   type: css_selector
-  element: 'div.header___2Uhn5:nth-child(1) div.topMenu___11GKd ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-dark:nth-child(1) li.ant-menu-overflow-item.ant-menu-item.ant-menu-item-only-child:nth-child(4) span.ant-menu-title-content div.label___Vj8WE > span:nth-child(1)'
+  element: 'div.header___2Uhn5:nth-child(1) div.topMenu___11GKd ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-dark:nth-child(1) li.ant-menu-overflow-item.ant-menu-item.ant-menu-item-only-child:nth-child(4) span.ant-menu-title-content > div.label___Vj8WE'
 - info: 1点击查看订单
   type: css_selector
   element: 'div.qiankun-micro-app div.qiankun-micro-app-container div.page___HgVRF div.ant-spin-nested-loading div.ant-spin-container section.ant-layout div.pageLayout___1hk16 main.ant-layout-content div.pageContent___3kLrL div.ant-row div.ant-col.ant-col-5:nth-child(1) div.box___1hLwT div:nth-child(1) div.bottom___3IpCw div.box___3NBdN > div.boxItem___1blbH:nth-child(2)'

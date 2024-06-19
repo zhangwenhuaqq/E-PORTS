@@ -1,5 +1,5 @@
 - name: 航管-结算管理总单添加收款
   success: true
-  paycompany: "X9888888"
+  Collection_Serial_Number: "X9888888"
   Voucher_flow_amount: "23"
   Name_receiver: "E-PORTS CO., LTD"

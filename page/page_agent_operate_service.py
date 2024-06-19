@@ -35,7 +35,7 @@ class PageAgentOperateService(Base):
         self.page_click_service_detail_again()
         sleep(2)
         self.page_click_submit()
-        sleep(2)
+        sleep(5)
 
 # if __name__=='__main__':
 #     login=PageLogin()
