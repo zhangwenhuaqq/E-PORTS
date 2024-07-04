@@ -45,6 +45,7 @@ class PageShipOwnerAppoint(Base):
         self.page_click_submit()
         sleep(1)
         self.page_order_detial()
+        sleep(3)
 
 # if __name__=='__main__':
 #     login=PageLogin()

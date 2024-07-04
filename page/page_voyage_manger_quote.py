@@ -17,9 +17,9 @@ class PageVoyageMangerQuote(Base):
     #点击知道了
     def page_I_know(self):
         self.base_click(data[24]["type"],data[24]["element"])
-    #点击总单
-    def page_total_order(self):
-        self.base_click(data[25]["type"],data[25]["element"])
+    # #点击总单
+    # def page_total_order(self):
+    #     self.base_click(data[25]["type"],data[25]["element"])
     #点击删除PortAgentFee服务项
     def page_click_delete_PortAgentFee(self):
         self.base_click(data[0]["type"],data[0]["element"])
@@ -97,8 +97,8 @@ class PageVoyageMangerQuote(Base):
         self.page_import_inquiry_confirm()
         sleep(2)
         self.page_I_know()
-        sleep(2)
-        self.page_total_order()
+        # sleep(2)
+        # self.page_total_order()
         sleep(6)
         self.page_click_delete_PortAgentFee()
         sleep(2)

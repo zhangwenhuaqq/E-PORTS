@@ -42,7 +42,7 @@ class PageVoyageManagerSonAddReceipt(Base):
 
     #组合业务方法
     def voyage_Manager_Son_Add_Settlement_receipt(self,paycompany,Collection_Serial_Number):
-        sleep(3)
+        sleep(5)
         self.page_click_son_order()
         sleep(2)
         self.page_click_pay_manage()
